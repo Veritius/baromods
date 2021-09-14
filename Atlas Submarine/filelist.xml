@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Atlas Submarine" path="Mods/Atlas Submarine/filelist.xml" corepackage="false" gameversion="0.14.6.0" steamworkshopid="2567469713" installtime="1628254632">
+  <Submarine file="Mods/Atlas Submarine/Atlas.sub" />
+  <Submarine file="Mods/Atlas Submarine/Atlas X.sub" />
+</contentpackage>

@@ -1,0 +1,37 @@
+<Jobs>
+	<Job identifier="fad_cook" minnumber="0" maxnumber="1" minkarma="30" initialcount="0" uicolor="0.86,0.86,0.86" vitalitymodifier="-45">
+    <Jobicon>
+      <sprite texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="0,0,128,128" origin="0.5,0.5" />
+    </Jobicon>
+    <Skills>
+      <Skill identifier="helm" level="3,8" />
+      <Skill identifier="weapons" level="3,4" />
+      <Skill identifier="mechanical" level="3,4" />
+      <Skill identifier="electrical" level="3,5" />
+      <Skill identifier="medical" level="5,12" />
+	    <Skill identifier="cooking" level="40,50" />
+    </Skills>
+    <ItemSet>
+      <Item identifier="idcard" equip="true" showpreview="false" />
+      <Item identifier="headset" equip="true" showpreview="false">
+        <Item identifier="batterycell" showpreview="false" />
+      </Item>
+		<Item identifier="cookhat" equip="true" showpreview="true" />
+	  <Item identifier="cookclothes" equip="true" showpreview="true" />
+	  <Item identifier="baguette" equip="false" showpreview="true" />
+	  <Item identifier="waterbottle" equip="false" showpreview="true" />
+	  <PreviewSprites dims="120,109">
+        <sprite texture="Mods/Food and Drink/items/clothes/OutfitIcons.png" sourcerect="0,0,128,128" offset="0,0" />
+      </PreviewSprites>
+    </ItemSet>
+    <PortraitClothing>
+      <sprite name="Portrait Clothing Cook" texture="Mods/Food and Drink/items/clothing/OutfitIcons.png" sourcerect="0,0,128,128" />
+    </PortraitClothing>
+    <AutonomousObjectives>
+      <Order identifier="extinguishfires" prioritymodifier="1" />
+    </AutonomousObjectives>
+    <AppropriateOrders>
+      <Order identifier="steer" />
+    </AppropriateOrders>
+  </Job>
+</Jobs>

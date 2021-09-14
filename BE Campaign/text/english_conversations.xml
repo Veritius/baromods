@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Conversations identifier="BE_engconversations" Language="English">
+  <!--
+  Station conversations
+  -->
+  <Conversation line="You'd better be on best behavior, scum." speaker="0" flags="EnterOutpost, LowReputation, OutpostNPC" />
+  <Conversation line="Good evening, friends!" speaker="0" flags="EnterOutpost, HighReputation, OutpostNPC" />
+
+  <Conversation line="Those Honkmother lunatics put horns in my goddamn bed. I'm this close to firing the next one I see out of an airlock." speaker="0" flags="OutpostNPC" />
+
+  <Conversation line="And they say the slave trade is dead. Personally, I think it's just been rebranded." speaker="0" flags="OutpostNPC" requirenextline="true">
+    <Conversation line="Shut it, we have visitors." speaker="1" flags="OutpostNPC" />
+  </Conversation>
+  <Conversation line="I miss the trees. I miss the sun, how the air didn't taste like metal." requirenextline="true" speaker="0" flags="OutpostNPC">
+    <Conversation line="Some days I lie down and imagine the sky. It's more alien to me than the abominations down here now." speaker="0">
+      <Conversation line="God, do you ever shut up?" speaker="1" speakertags="rude" flags="OutpostNPC" />
+    </Conversation>
+  </Conversation>
+  <!--
+  Crew banter and psychosis lines
+  -->
+  <Conversation line="Jesus... we weren't meant to be here. The oceans, they're crying." speaker="0" flags="Psychosis" speakertags="crazy"/>
+  <Conversation line="The abyss whispers to me, and I whisper back. There are far worse creatures down there than Endworms." speaker="0" flags="Psychosis" speakertags="crazy" requirenextline="true">
+    <Conversation line="Formless, gelatinous creatures with single-minded malevolent will. An entire civilisation of those we thought dead." speaker="0" requirenextline="true">
+      <Conversation line="They're calling out to me. They want us to join Them. In their city of the dead." speaker="0">
+        <Conversation line="Do they have cookies?" speaker="1" />
+      </Conversation>
+    </Conversation>
+  </Conversation>
+
+  <Conversation line="If anyone's skin starts melting, tell me as soon as possible." speaker="0" allowedjobs="medicaldoctor" speakertags="joker" requirenextline="true">
+    <Conversation line="I've survived worse." speaker="1" speakertags="tough"/>
+    <Conversation line="Hilarious." speaker="1" speakertags="professional"/>
+    <Conversation line="Wait, what?" requirenextline="true" speaker="1" speakertags="fearful">
+      <Conversation line="It's a joke, lad." speaker="0" />
+    </Conversation>
+  </Conversation>
+  <!--
+  Escort missions
+  -->
+  <Conversation line="So, what'd you do to end up here?" speaker="0" allowedjobs="securityofficer" requirenextline="true" requiresight="true">
+    <Conversation line="Talked smack about a Coalition leader." speaker="1" allowedjobs="prisoner" flags="escort" />
+  </Conversation>
+
+  <Conversation line="This place is filthy." speaker="0" allowedjobs="vip" flags="Initial,escort">
+    <Conversation line="We have bigger concerns than cleanliness. Like Molochs." speaker="1" allowedjobs="captain"/>
+    <Conversation line="Shut your trap." speaker="1" speakertags="rude"/>
+  </Conversation>
+  <Conversation line="My safety is of utmost importance!" speaker="0" allowedjobs="vip" flags="escort" requirenextline="true">
+    <Conversation line="I'll give you some medical advice for free: get your head out of your ass." speaker="1" allowedjobs="medicaldoctor" speakertags="rude" />
+  </Conversation>
+
+  <Conversation line="What happens if the hull is breached?" speaker="0" allowedjobs="commoner" requirenextline="true" flags="escort" speakertags="fearful">
+    <Conversation line="Your body is crushed like a tin can." speaker="1" allowedjobs="captain">
+      <Conversation line="Gods preserve us..." speaker="0">
+        <Conversation line="There are no gods under the ice. Only us, and the monsters." speaker="1"/>
+      </Conversation>
+    </Conversation>
+  </Conversation>
+  <!--
+  Radiation conversations
+  -->
+  <Conversation line="My glow-in-the-dark toy won't stop glowing." speaker="0" flags="InRadiation" speakertags="crazy" />
+</Conversations>

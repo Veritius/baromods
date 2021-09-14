@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+	<!-- Templates for copy-paste
+	    <entityname.vgm_></entityname.vgm_>
+	    <entitydescription.vgm_></entitydescription.vgm_>
+    -->
+	
+    <!--
+    #################################
+    ####### WEAPONS           #######
+    #################################
+    -->
+        <!--Projectiles-->
+        <entityname.vgm_762-39round>7.62x39mm cartridge</entityname.vgm_762-39round>
+	    <entitydescription.vgm_762-39round></entitydescription.vgm_762-39round>
+        <entityname.vgm_473-33round>4.73x33mm cartridge</entityname.vgm_473-33round>
+	    <entitydescription.vgm_473-33round></entitydescription.vgm_473-33round>
+        <entityname.vgm_9mmround>9mm cartridge</entityname.vgm_9mmround>
+        <entitydescription.vgm_9mmround></entitydescription.vgm_9mmround>
+        <entityname.vgm_9mmmakarovround>9mm makarov cartridge</entityname.vgm_9mmmakarovround>
+        <entitydescription.vgm_9mmmakarovround></entitydescription.vgm_9mmmakarovround>
+        <entityname.vgm_45acp>45acp cartridge</entityname.vgm_45acp>
+        <entitydescription.vgm_45acp></entitydescription.vgm_45acp>
+        <entityname.vgm_22lr>22lr cartridge</entityname.vgm_22lr>
+	    <entitydescription.vgm_22lr></entitydescription.vgm_22lr>
+        <entityname.vgm_radbolt>radbolt</entityname.vgm_radbolt>
+	    <entitydescription.vgm_radbolt></entitydescription.vgm_radbolt>
+
+        <!--Throwables-->
+        <entityname.vgm_stickgrenade>Stick Grenade</entityname.vgm_stickgrenade>
+	    <entitydescription.vgm_stickgrenade></entitydescription.vgm_stickgrenade>
+        
+        <!--Gun Ammo-->
+        <entityname.vgm_infinitemag>Infinite Universal Magazine</entityname.vgm_infinitemag>
+	    <entitydescription.vgm_infinitemag>This is a ludicrously cheaty item. It's infinite, it's universal, and it's not at all balanced. Oh, and the bullets explode.</entitydescription.vgm_infinitemag>
+        <entityname.vgm_fissioncell>Fission Cell</entityname.vgm_fissioncell>
+	    <entitydescription.vgm_fissioncell>A nuclear fission cell for a portable particle accelerator.</entitydescription.vgm_fissioncell>
+        <entityname.vgm_glock17magazine>Glock 17 Magazine</entityname.vgm_glock17magazine>
+        <entitydescription.vgm_glock17magazine>A magazine for the Glock 17.</entitydescription.vgm_glock17magazine>
+        <entityname.vgm_makarovmagazine>Makarov Magazine</entityname.vgm_makarovmagazine>
+        <entitydescription.vgm_makarovmagazine>A magazine for the Makarov.</entitydescription.vgm_makarovmagazine>
+        <entityname.vgm_m1911magazine>M1911 Magazine</entityname.vgm_m1911magazine>
+        <entitydescription.vgm_m1911magazine>A magazine for the M1911.</entitydescription.vgm_m1911magazine>
+        <entityname.vgm_10-22magazine>Ruger 10-22 Magazine</entityname.vgm_10-22magazine>
+	    <entitydescription.vgm_10-22magazine>A rotary magazine of 10 .22 LR cartridges.</entitydescription.vgm_10-22magazine>
+        <entityname.vgm_saiga12mag_bs>Saiga 12 Magazine (Buckshot)</entityname.vgm_saiga12mag_bs>
+	    <entitydescription.vgm_saiga12mag_bs>A magazine of buckshot shells for use in a Saiga 12.</entitydescription.vgm_saiga12mag_bs>
+        <entityname.vgm_saiga12mag_fl>Saiga 12 Magazine (Flechette)</entityname.vgm_saiga12mag_fl>
+	    <entitydescription.vgm_saiga12mag_fl>A magazine of flechette shells for use in a Saiga 12.</entitydescription.vgm_saiga12mag_fl>
+        <entityname.vgm_saiga12mag_in>Saiga 12 Magazine (Incendiary)</entityname.vgm_saiga12mag_in>
+	    <entitydescription.vgm_saiga12mag_in>A magazine of incendiary shells for use in a Saiga 12.</entitydescription.vgm_saiga12mag_in>
+        <entityname.vgm_saiga12mag_sl>Saiga 12 Magazine (Slug)</entityname.vgm_saiga12mag_sl>
+	    <entitydescription.vgm_saiga12mag_sl>A magazine of slug shells for use in a Saiga 12.</entitydescription.vgm_saiga12mag_sl>
+        <entityname.vgm_m82mag>M82 Magazine</entityname.vgm_m82mag>
+	    <entitydescription.vgm_m82mag>A magazine of 5 regular .50 BMG rounds for use in a Barrett M82.</entitydescription.vgm_m82mag>
+        <entityname.vgm_m82mag_ap>Armor-Piercing M82 Magazine</entityname.vgm_m82mag_ap>
+	    <entitydescription.vgm_m82mag_ap>A magazine of 5 armor-piercing .50 BMG rounds for use in a Barrett M82.</entitydescription.vgm_m82mag_ap>
+        <entityname.vgm_m82mag_i>Incendiary M82 Magazine</entityname.vgm_m82mag_i>
+	    <entitydescription.vgm_m82mag_i>A magazine of 5 incendiary .50 BMG rounds for use in a Barrett M82.</entitydescription.vgm_m82mag_i>
+        <entityname.vgm_greasegunmag>Grease Gun Magazine</entityname.vgm_greasegunmag>
+	    <entitydescription.vgm_greasegunmag>A magazine for the Grease Gun.</entitydescription.vgm_greasegunmag>
+        <entityname.vgm_ak47mag>AK-47 Magazine</entityname.vgm_ak47mag>
+	    <entitydescription.vgm_ak47mag>A magazine for the AK-47.</entitydescription.vgm_ak47mag>
+        <entityname.vgm_g11mag>G11 Magazine</entityname.vgm_g11mag>
+	    <entitydescription.vgm_g11mag>A magazine for the G11.</entitydescription.vgm_g11mag>
+        <entityname.vgm_m60mag>M60 Magazine</entityname.vgm_m60mag>
+	    <entitydescription.vgm_m60mag>A magazine for the M60.</entitydescription.vgm_m60mag>
+        <entityname.vgm_musketball>Musket Ball</entityname.vgm_musketball>
+	    <entitydescription.vgm_musketball>A smooth ball of iron for use in a musket.</entitydescription.vgm_musketball>
+        <entityname.vgm_50bmg>.50 BMG</entityname.vgm_50bmg>
+        <entitydescription.vgm_50bmg>A high power .50 caliber cartridge for use in a Barrett M82.</entitydescription.vgm_50bmg>
+        <entityname.vgm_50bmg_ap>Armor-Piercing .50 BMG</entityname.vgm_50bmg_ap>
+        <entitydescription.vgm_50bmg_ap>A high power armor-piercing .50 caliber cartridge for use in a Barrett M82.</entitydescription.vgm_50bmg_ap>
+        <entityname.vgm_50bmg_i>Incendiary .50 BMG</entityname.vgm_50bmg_i>
+        <entitydescription.vgm_50bmg_i>A high power incendiary .50 caliber cartridge for use in a Barrett M82.</entitydescription.vgm_50bmg_i>
+        <entityname.vgm_30-06round>.30-06 Springfield</entityname.vgm_30-06round>
+	    <entitydescription.vgm_30-06round>A .30-06 Springfield round for the M1 Garand.</entitydescription.vgm_30-06round>
+        <entityname.vgm_flechetteshell>Shotgun Flechette Shell</entityname.vgm_flechetteshell>
+        <entitydescription.vgm_flechetteshell>A 12ga shell filled with tiny needles that tear through flesh, causing massive bleeding.</entitydescription.vgm_flechetteshell>
+        <entityname.vgm_incendiaryshell>Shotgun Incendiary Shell</entityname.vgm_incendiaryshell>
+	    <entitydescription.vgm_incendiaryshell>A 12ga shell filled with incendiary pellets that explode on contact.</entitydescription.vgm_incendiaryshell>
+        <entityname.vgm_slugshell>Shotgun Slug Shell</entityname.vgm_slugshell>
+        <entitydescription.vgm_slugshell>A 12ga containing a large, singular metal pellet that effectively penetrates armor.</entitydescription.vgm_slugshell>
+        <entityname.vgm_45revolverround>.45 Revolver Round</entityname.vgm_45revolverround>
+        <entitydescription.vgm_45revolverround>A revolver round for the .45 Revolver.</entitydescription.vgm_45revolverround>
+        <entityname.vgm_45revolverroundexplosive>Explosive .45 Revolver Round</entityname.vgm_45revolverroundexplosive>
+        <entitydescription.vgm_45revolverroundexplosive>An explosive-tipped revolver round for the .45 Revolver.</entitydescription.vgm_45revolverroundexplosive>
+        <entityname.vgm_40mmrubberbullet>40mm Rubber Bullet</entityname.vgm_40mmrubberbullet>
+	    <entitydescription.vgm_40mmrubberbullet>A less-lethal 40mm grenade that stuns a single target effectively.</entitydescription.vgm_40mmrubberbullet>
+        <entityname.vgm_timed40mmgrenade>Timed 40mm Grenade</entityname.vgm_timed40mmgrenade>
+	    <entitydescription.vgm_timed40mmgrenade>A 40mm grenade with a 2 second fuse.</entitydescription.vgm_timed40mmgrenade>
+
+        <!--Handheld Weapons-->
+        <entityname.vgm_antiairpistol>Anti-Air Pistol</entityname.vgm_antiairpistol>
+	    <entitydescription.vgm_antiairpistol>BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRT</entitydescription.vgm_antiairpistol>
+		<entityname.vgm_45revolver>Colt .45 Revolver</entityname.vgm_45revolver>
+        <entitydescription.vgm_45revolver>A .45 caliber revolver for use in close quarters combat. Effective against armored targets.</entitydescription.vgm_45revolver>
+        <entityname.vgm_reallybigiron>Really Big Iron</entityname.vgm_reallybigiron>
+	    <entitydescription.vgm_reallybigiron>To the town of Agua Fria rode a stranger one fine day, Hardly spoke to folks around him didn't have too much to say, No one dared to ask his business no one dared to make a slip, For the stranger there among them had a big iron on his hip.</entitydescription.vgm_reallybigiron>
+        <entityname.vgm_glock17>Glock 17</entityname.vgm_glock17>
+        <entitydescription.vgm_glock17>A reliable polymer-framed 9mm pistol excellent for use against human targets.</entitydescription.vgm_glock17>
+        <entityname.vgm_makarov>Makarov</entityname.vgm_makarov>
+	    <entitydescription.vgm_makarov>A small pistol firing 9mm rounds.</entitydescription.vgm_makarov>
+        <entityname.vgm_m1911>Colt M1911</entityname.vgm_m1911>
+	    <entitydescription.vgm_m1911>A pistol firing .45 ACP.</entitydescription.vgm_m1911>
+        <entityname.vgm_zip22>USFA ZiP .22</entityname.vgm_zip22>
+	    <entitydescription.vgm_zip22>A semi-automatic bullpup pistol so bad it killed a company. Known for malfunctions, poor design, and being generally terrible, this gun has a special place in history through how immensely awful it was.</entitydescription.vgm_zip22>
+        <entityname.vgm_eokapistol>Eoka Pistol</entityname.vgm_eokapistol>
+	    <entitydescription.vgm_eokapistol>A crudely assembled 20mm cartridge attached to a 'handle' with wire.</entitydescription.vgm_eokapistol>
+        <entityname.vgm_particleaccelerator>Handheld Particle Accelerator</entityname.vgm_particleaccelerator>
+	    <entitydescription.vgm_particleaccelerator>A handheld particle accelerator that releases extremely rapid bursts of high-energy particles out at near-perfect accuracy, irradiating living tissue and shattering any DNA in its path.</entitydescription.vgm_particleaccelerator>
+        <entityname.vgm_makeshiftshotgun>Makeshift Shotgun</entityname.vgm_makeshiftshotgun>
+	    <entitydescription.vgm_makeshiftshotgun>A DIY shotgun crudely hammered out of metal pipe, 'designed' to take 12ga shells. Probably not a good idea to put this next to your face.</entitydescription.vgm_makeshiftshotgun>
+        <entityname.vgm_musket>Musket</entityname.vgm_musket>
+	    <entitydescription.vgm_musket>A simple muzzle-loaded smoothbore rifle vastly outmatched by modern weapons.</entitydescription.vgm_musket>
+        <entityname.vgm_m82>Barrett M82</entityname.vgm_m82>
+	    <entitydescription.vgm_m82>A devastating semi-automatic rifle chambered in .50 BMG. Extremely deadly, and can take out most of Europa's hostile life in just a few shots.</entitydescription.vgm_m82>
+        <entityname.vgm_m1garand>M1 Garand</entityname.vgm_m1garand>
+	    <entitydescription.vgm_m1garand>A semi-automatic battle rifle used in Earth wars hundreds of years ago. Known for its distinctive ejection sound.</entitydescription.vgm_m1garand>
+        <entityname.vgm_remington870>Remington 870</entityname.vgm_remington870>
+	    <entitydescription.vgm_remington870>A reliable, effective pump-action shotgun.</entitydescription.vgm_remington870>
+        <entityname.vgm_saiga12>Saiga 12</entityname.vgm_saiga12>
+	    <entitydescription.vgm_saiga12>A high-capacity semi-automatic shotgun.</entitydescription.vgm_saiga12>
+        <entityname.vgm_obliterator>Obliterator</entityname.vgm_obliterator>
+	    <entitydescription.vgm_obliterator>A 4 gauge shotgun with 4 simultaneously-fired barrels. Stand against a wall when firing.</entitydescription.vgm_obliterator>
+        <entityname.vgm_greasegun>Grease Gun</entityname.vgm_greasegun>
+	    <entitydescription.vgm_greasegun></entitydescription.vgm_greasegun>
+        <entityname.vgm_milkormgl>Milkor MGL</entityname.vgm_milkormgl>
+	    <entitydescription.vgm_milkormgl>A lightweight 40mm grenade launcher with six chambers. Originally developed back on Earth, it serves well for warfare.</entitydescription.vgm_milkormgl>
+        <entityname.vgm_ak47>AK-47</entityname.vgm_ak47>
+	    <entitydescription.vgm_ak47>The Avtomat Kalashnikova is a well known rifle, designed over 300 years ago but remaining relevant even now. A reliable, cheap, fully-automatic rifle firing 7.62x39mm cartridges, it's cemented its place in history in the arms of revolutionaries.</entitydescription.vgm_ak47>
+        <entityname.vgm_g11>HK G11</entityname.vgm_g11>
+	    <entitydescription.vgm_g11>A prototype assault rifle firing 4.73x33mm caseless ammunition.</entitydescription.vgm_g11>
+        <entityname.vgm_m60>M60</entityname.vgm_m60>
+	    <entitydescription.vgm_m60>A light machine gun.</entitydescription.vgm_m60>
+</infotexts>

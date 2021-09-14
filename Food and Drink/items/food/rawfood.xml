@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+  <Item name="" identifier="fad_crawlermeat" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="160" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="1" />
+		</Price>
+		<Deconstruct time="60">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="704,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="3,78,32,14" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="5" />
+        <Affliction identifier="nausea" amount="15" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_molochmeat" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="160" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="1" />
+		</Price>
+		<Deconstruct time="60">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="960,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="44,104,83,22" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="5" />
+        <Affliction identifier="nausea" amount="10" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+</Items>

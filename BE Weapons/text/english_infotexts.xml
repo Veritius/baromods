@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+    <entityname.fulguriumpulselaserammobox>Fulgurium-Laced Pulse Laser Ammo Box</entityname.fulguriumpulselaserammobox>
+	<entitydescription.fulguriumpulselaserammobox>A collection of high-performance fulgurium-laced chemicals and lenses for use in a Pulse Laser.</entitydescription.fulguriumpulselaserammobox>
+    <entityname.fulguriumpulselaserbolt>fulguriumpulselaserbolt</entityname.fulguriumpulselaserbolt>
+	<entitydescription.fulguriumpulselaserbolt></entitydescription.fulguriumpulselaserbolt>
+    <entityname.physicoriumcanistershell>Physicorium Canister Shell</entityname.physicoriumcanistershell>
+	<entitydescription.physicoriumcanistershell>A canister of small pellets that shred flesh and devastate any soft targets.</entitydescription.physicoriumcanistershell>
+    <displayname.recyclephysicoriumcanistershell>Physicorium Canister Shell (Recycle)</displayname.recyclephysicoriumcanistershell>
+</infotexts>

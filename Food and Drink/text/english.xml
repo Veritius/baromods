@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+	<!-- Item template for copy-paste
+	<entityname.fad_></entityname.fad_>
+	<entitydescription.fad_></entitydescription.fad_>
+	-->
+
+	<!-- Cook job and clothes related stuff -->
+	<skillname.cooking>Cooking</skillname.cooking>
+	<skilldescription.cooking>Cooking skill.</skilldescription.cooking>
+	<jobname.fad_cook>Cook</jobname.fad_cook>
+	<jobdescription.fad_cook>Cooks, well, cook. A submarine needs food, and usually you want someone to be good at cooking doing that.</jobdescription.fad_cook>
+	<entityname.cookclothes>Cook's Clothes</entityname.cookclothes>
+	<entitydescription.cookclothes>Clean, white, mostly sterile clothes.</entitydescription.cookclothes>
+	<entityname.cookhat>Cook's Hat</entityname.cookhat>
+	<entitydescription.cookhat>A hat that signifies the ship cook, by right of looking ridiculous.</entitydescription.cookhat>
+
+	<!-- UI -->
+	<displayname.fad_waterrefill>Water Bottle (Refill)</displayname.fad_waterrefill>
+	<displayname.fad_coffeerefill>Coffee (Refill)</displayname.fad_coffeerefill>
+
+	<!-- Advanced items -->
+	<entityname.fad_compatpill>Compatibility Pill</entityname.fad_compatpill>
+	<entitydescription.fad_compatpill>Provides compatibility for mods that override the Human character. Should not be used if nothing's overriding Human. Adds +3 Hunger and +3 Thirst.</entitydescription.fad_compatpill>
+
+	<!-- Agriculture stuff -->
+	<entityname.fad_coffeebean>Coffee Bean</entityname.fad_coffeebean>
+	<entitydescription.fad_coffeebean>A coffee bean genetically modified to survive better on Europa.</entitydescription.fad_coffeebean>
+
+	<!-- Placeable objects -->
+	<entityname.fad_smlcookingstation>Cooking Station</entityname.fad_smlcookingstation>
+	<entitydescription.fad_smlcookingstation>A device for cooking food and making drinks.</entitydescription.fad_smlcookingstation>
+	<entityname.fad_smlsmlcookingstation>Small Cooking Station</entityname.fad_smlsmlcookingstation>
+	<entitydescription.fad_smlcookingstation>A device for cooking food and making drinks. Place with Aim+Use.</entitydescription.fad_smlcookingstation>
+
+	<!-- Raw food -->
+	<entityname.fad_crawlermeat>Raw Crawler Steak</entityname.fad_crawlermeat>
+	<entitydescription.fad_crawlermeat>Slimy and smells like rotted meat. Doesn't look particularly edible.</entitydescription.fad_crawlermeat>
+	<entityname.fad_molochmeat>Raw Moloch Meat</entityname.fad_molochmeat>
+	<entitydescription.fad_molochmeat>Meat harvested from a Moloch. Shouldn't be eaten raw, but might be useful in cooking.</entitydescription.fad_molochmeat>
+
+	<!-- Drinks -->
+	<entityname.fad_waterbottle>Water Bottle</entityname.fad_waterbottle>
+	<entitydescription.fad_waterbottle>Europan Spring branded water, brought to you by the people behind Crawler Cola. May not actually be spring water.</entitydescription.fad_waterbottle>
+	<entityname.fad_coffee>Coffee</entityname.fad_coffee>
+	<entitydescription.fad_coffee>A caffeine-filled drink with a legacy dating back centuries.</entitydescription.fad_coffee>
+	<entityname.fad_beer>Beer</entityname.fad_beer>
+	<entitydescription.fad_beer>A beer, with some methanol for taste in the classic Europan style.</entitydescription.fad_beer>
+	<entityname.fad_saltdrink>Saltvine Juice</entityname.fad_saltdrink>
+	<entitydescription.fad_saltdrink>Exceptionally salty, but remarkably delicious.</entitydescription.fad_saltdrink>
+
+	<!-- Food -->
+	<entityname.fad_rationbar>Ration Bar</entityname.fad_rationbar>
+	<entitydescription.fad_rationbar>Though its edibility is debatable, ration bars will keep you alive.</entitydescription.fad_rationbar>
+	<entityname.fad_hqrationbar>Coalition Standard Ration Bar</entityname.fad_hqrationbar>
+	<entitydescription.fad_hqrationbar>Despite looking significantly like dirt, these are surprisingly tasty.</entitydescription.fad_hqrationbar>
+	<entityname.fad_baguette>Baguette</entityname.fad_baguette>
+	<entitydescription.fad_baguette>A poor Europan reproduction of an Earth baguette. Should not be consumed through any orifice other than the mouth.</entitydescription.fad_baguette>
+	<entityname.fad_cookie>Cookie</entityname.fad_cookie>
+	<entitydescription.fad_cookie>Just like Grandma Mudraptor used to make.</entitydescription.fad_cookie>
+	<entityname.fad_huskcaviar>Husk Egg Caviar</entityname.fad_huskcaviar>
+	<entitydescription.fad_huskcaviar>Supposedly the high class of Europa eat these slimy platters of previously lethal husk eggs.</entitydescription.fad_huskcaviar>
+	<entityname.fad_curry>Curry</entityname.fad_curry>
+	<entitydescription.fad_curry>Unfortunately, the ingredients to create curry don't grow well on Europa, so instead this is made from elastin plants, which gives it a certain chewy texture.</entitydescription.fad_curry>
+	<entityname.fad_mudraptorscramble>Mudraptor Scramble</entityname.fad_mudraptorscramble>
+	<entitydescription.fad_mudraptorscramble>Surprisingly tasty, if a little slimy.</entitydescription.fad_mudraptorscramble>
+	<entityname.fad_crawlersteak>Cooked Crawler Steak</entityname.fad_crawlersteak>
+	<entitydescription.fad_crawlersteak>This meat resembles nothing to what it previously did - it smells quite nice and looks delicious.</entitydescription.fad_crawlersteak>
+	<entityname.fad_molochsushi>Moloch Sushi</entityname.fad_molochsushi>
+	<entitydescription.fad_molochsushi>Slightly squishy, but looks like a good snack.</entitydescription.fad_molochsushi>
+</infotexts>

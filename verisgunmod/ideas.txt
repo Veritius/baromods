@@ -1,0 +1,29 @@
+Impossible for now:
+	M1 Garand
+		Finished apart from the ping
+
+	Bow and Arrow
+		More dangerous when charged
+		Ammo is retrievable
+
+	Gauss Rifle
+		Charge-up
+		Damage proportional to charge
+
+Can be done:
+	Crawler Cannon
+		Fires baby crawlers at the enemy
+		
+	MG42
+		High-capacity
+		Rapid-fire
+		Large weapon, cannot be stored in a cabinet
+	
+	Thompson Gun
+		"RATTLE EM, BOYS!"
+		Rapid fire weapon
+		Stick and drum mag options (but the drum mag is obviously better)
+
+	Medicannon
+		Fully automatic high-capacity syringe gun
+		Large weapon, cannot be stored in a cabinet

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Missions>
+    <MonsterMission
+    name="Terminate a Migratory Swarm"
+    identifier="killmassivethresherswarm1"
+    tags="killmonster,killswarm"
+    type="Monster"
+    description="A massive migrating swarm of threshers has been blocking the path between [location1] and [location2]. A reward of [reward] credits has been promised to any crew who can eliminate it."
+    difficulty="5"
+    commonness="6"
+    reward="13000"
+    sonarlabel="Thresher Swarm"
+    maxsonarmarkerdistance="14000"
+    successmessage="The swarm has been terminated.">
+    <monster character="tigerthresher" min="10" max="24"/>
+    <monster character="bonethresher" min="4" max="8"/>
+
+    <Reputation identifier="location" amount="16" />
+    <Reputation identifier="coalition" amount="10" />
+    
+    <Icon texture="Content/UI/MissionIcons.png" sourcerect="768,256,256,256" color="214,50,48"/>
+
+    <LocationType from="City" to="None"/>
+    <LocationType from="City" to="City"/>
+    <LocationType from="City" to="Military"/>
+    <LocationType from="City" to="Research"/>
+    <LocationType from="City" to="Lair"/>
+
+    <LocationType from="Military" to="None"/>
+    <LocationType from="Military" to="City"/>
+    <LocationType from="Military" to="Military"/>
+    <LocationType from="Military" to="Research"/>
+    <LocationType from="Military" to="Lair"/>
+
+    <LocationType from="Research" to="None"/>
+    <LocationType from="Research" to="City"/>
+    <LocationType from="Research" to="Military"/>
+    <LocationType from="Research" to="Research"/>
+    <LocationType from="Research" to="Lair"/>
+    
+    <message header="Swarm destroyed" text="The swarm is terminated. Navigate the submarine out of the cavern to claim the reward."/>
+  </MonsterMission>
+</Missions>

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+	<Item name="" identifier="fad_rationbar" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<SuitableTreatment identifier="fad_thirst" suitability="20" />
+		<PreferredContainer primary="toxcab" spawnprobability="0.1" />
+		<Price baseprice="25" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" minavailable="2"/>
+			<Price locationtype="city" multiplier="1.2" minavailable="5" />
+			<Price locationtype="military" multiplier="0.9" minavailable="12" />
+			<Price locationtype="research" multiplier="1.1" minavailable="4" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
+			<RequiredSkill identifier="cooking" level="15" />
+			<RequiredItem identifier="carbon" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="384,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="122,64,42,15" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="40" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_hqrationbar" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<PreferredContainer primary="toxcab" spawnprobability="0.1" />
+		<Price baseprice="25" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" minavailable="2"/>
+			<Price locationtype="city" multiplier="1.2" minavailable="5" />
+			<Price locationtype="military" multiplier="0.9" minavailable="12" />
+			<Price locationtype="research" multiplier="1.1" minavailable="4" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
+			<RequiredSkill identifier="cooking" level="15" />
+			<RequiredItem identifier="carbon" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="fiberplant" />
+			<Item identifier="sodium" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="640,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="123,83,42,15" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="60" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_baguette" category="Misc" maxstacksize="2" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="60" soldeverywhere="false">
+			<Price locationtype="city" multiplier="0.9" minavailable="2" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="100">
+			<RequiredSkill identifier="cooking" level="35" />
+			<RequiredItem identifier="fiberplant" />
+			<RequiredItem identifier="yeastshroom" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="0,0,129,32" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="50" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+		<!-- I've kept the ability for baguettes to be fired out of a syringe gun because it's hilarious -->
+		<Projectile characterusable="false" launchimpulse="20.0" sticktocharacters="true" launchrotation="-90">
+			<StatusEffect type="OnImpact" target="This" Condition="-100.0" disabledeltatime="true">
+			<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+			</StatusEffect>
+				<StatusEffect tags="poison" type="OnImpact" target="Character">
+				<ReduceAffliction identifier="fad_hunger" amount="50" />
+			</StatusEffect>
+		</Projectile>
+	</Item>
+	<Item name="" identifier="fad_cookie" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="45" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" minavailable="1"/>
+			<Price locationtype="city" multiplier="0.9" minavailable="2" />
+			<Price locationtype="research" multiplier="0.9" minavailable="1" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="90">
+			<RequiredSkill identifier="cooking" level="15" />
+			<RequiredItem identifier="fiberplant" />
+		</Fabricate>
+		<Deconstruct time="30">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="192,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="1,31,32,31" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="20" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_huskcaviar" category="Misc" maxstacksize="2" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="300" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="0" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="120">
+			<RequiredSkill identifier="cooking" level="60" />
+			<RequiredItem identifier="huskeggs" />
+			<RequiredItem identifier="stabilozine" />
+		</Fabricate>
+		<Deconstruct time="30">
+			<Item identifier="carbon" />
+			<Item identifier="sodium" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="256,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="134,3,30,24" depth="0.6" origin="0.5,0.5" />
+		<Body width="30" height="24" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="10" />
+				<Affliction identifier="nausea" amount="8" />
+				<Affliction identifier="huskinfection" amount="1" probability="0.05"/>
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_curry" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="120" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" minavailable="0"/>
+			<Price locationtype="city" multiplier="0.9" minavailable="1" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="90">
+			<RequiredSkill identifier="cooking" level="15" />
+			<RequiredItem identifier="elastinplant" />
+		</Fabricate>
+		<Deconstruct time="30">
+			<Item identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="320,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="126,42,35,17" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="40" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_mudraptorscramble" category="Misc" maxstacksize="3" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="160" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="1" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="80">
+			<RequiredSkill identifier="cooking" level="45" />
+			<RequiredItem identifier="smallmudraptoregg" />
+			<RequiredItem identifier="sodium" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="carbon" />
+			<Item identifier="sodium" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="448,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="3,66,26,9" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="70" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_crawlersteak" category="Misc" maxstacksize="3" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="160" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="1" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="50">
+			<RequiredSkill identifier="cooking" level="45" />
+			<RequiredItem identifier="fad_crawlermeat" />
+			<RequiredItem identifier="sodium" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="carbon" />
+			<Item identifier="sodium" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="768,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="40,82,60,18" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="75" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+	<Item name="" identifier="fad_molochsushi" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
+		<Price baseprice="80" soldeverywhere="false">
+			<Price locationtype="city" multiplier="1" minavailable="3" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="60">
+			<RequiredSkill identifier="cooking" level="25" />
+			<RequiredItem identifier="fad_molochmeat" />
+			<RequiredItem identifier="sodium" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<Item identifier="carbon" />
+			<Item identifier="sodium" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="0,64,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="174,55,42,38" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="60" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</MeleeWeapon>
+	</Item>
+</Items>

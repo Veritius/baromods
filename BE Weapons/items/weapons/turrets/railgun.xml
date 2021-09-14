@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Items>
+    <Item name="" identifier="physicoriumcanistershell" tags="railgunequipment,railgunammo,containershell" category="Equipment" linkable="true" scale="0.5" impactsoundtag="impact_metal_heavy">
+    <PreferredContainer primary="railgunammocontainer" spawnprobability="0.2"/>
+    <PreferredContainer primary="wreckrailgun" minamount="0" maxamount="3" spawnprobability="0.33"/>
+    <Price baseprice="300" soldeverywhere="false">
+      <Price locationtype="outpost" multiplier="1.2" sold="false"/>
+      <Price locationtype="military" multiplier="0.9" minavailable="5"/>
+    </Price>
+    <Fabricate suitablefabricators="fabricator" requiredtime="20">
+      <RequiredSkill identifier="weapons" level="25" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="titaniumaluminiumalloy" />
+    </Fabricate>
+    <Fabricate suitablefabricators="fabricator" displayname="recyclephysicoriumcanistershell" requiredtime="8">
+      <RequiredSkill identifier="weapons" level="20" />
+      <RequiredItem identifier="physicorium" />
+      <RequiredItem identifier="physicoriumcanistershell" mincondition="0.0" maxcondition="0.0" usecondition="false"/>
+    </Fabricate>
+    <Deconstruct time="10">
+      <Item identifier="steel" />
+    </Deconstruct>
+    <!--<InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="320,128,64,64" />-->
+    <Sprite texture="Mods/BE Weapons/assets/spritesheet1.png" sourcerect="0,81,197,34" depth="0.55" origin="0.5,0.5" />
+    <BrokenSprite texture="Mods/BE Weapons/assets/spritesheet1.png" sourcerect="0,117,122,34" depth="0.55" origin="0.5,0.5" maxcondition="0"/>
+    <InventoryIcon texture="Mods/BE Weapons/assets/InventoryIconAtlas.png" sourcerect="0,0,64,64" origin="0.5,0.5" />
+    <Body width="215" height="30" density="35" />
+    <Holdable slots="RightHand+LeftHand" holdpos="0,-50" handle1="-10,0" handle2="10,0" aimable="false" msg="ItemMsgPickUpSelect" />
+    <ItemContainer hideitems="true" capacity="11" drawinventory="false" canbeselected="false" canbecombined="true" ShowConditionInContainedStateIndicator="true" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet"
+                   spawnwithid="physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet,physicoriumcanistershellpellet">
+      <StatusEffect type="OnUse" target="This" condition="-100" disabledeltatime="true">
+        <RequiredItem items="physicoriumcanistershellpellet" type="Contained" />
+      </StatusEffect>
+      <Containable items="physicoriumcanistershellpellet" />
+    </ItemContainer>
+    </Item>
+</Items>

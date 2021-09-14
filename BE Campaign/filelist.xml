@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="BE Campaign" path="Mods/BE Campaign/filelist.xml" corepackage="false" gameversion="0.14.6.0" steamworkshopid="2562780553" installtime="1629875563">
+  <Text file="Mods/BE Campaign/text/english_infotexts.xml" />
+  <NPCConversations file="Mods/BE Campaign/text/english_conversations.xml" />
+  <Missions file="Mods/BE Campaign/world/missions.xml" />
+  <BeaconStation file="Mods/BE Campaign/world/structures/beaconstation/BE_beaconstation_1.sub" />
+  <BeaconStation file="Mods/BE Campaign/world/structures/beaconstation/BE_beaconstation_3.sub" />
+  <BeaconStation file="Mods/BE Campaign/world/structures/beaconstation/BE_beaconstation_4.sub" />
+  <EnemySubmarine file="Mods/BE Campaign/world/structures/pirate/BE_orcapirate.sub" />
+  <Wreck file="Mods/BE Campaign/world/structures/wreck/BE_azimuthwrecked.sub" />
+  <Wreck file="Mods/BE Campaign/world/structures/wreck/BE_cuttlefishwrecked.sub" />
+  <Wreck file="Mods/BE Campaign/world/structures/wreck/BE_r29wrecked.sub" />
+  <Wreck file="Mods/BE Campaign/world/structures/wreck/BE_remorawrecked.sub" />
+  <Wreck file="Mods/BE Campaign/world/structures/wreck/BE_typhon2wrecked.sub" />
+</contentpackage>

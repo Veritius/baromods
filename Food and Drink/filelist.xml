@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Food and Drink" path="Mods/Food and Drink/filelist.xml" corepackage="false" gameversion="0.14.9.0" steamworkshopid="2534299874" installtime="1630132184">
+  <Text file="Mods/Food and Drink/text/english.xml" />
+  <Character file="Mods/Food and Drink/Human.xml" />
+  <Character file="Mods/Food and Drink/creatures/crawler.xml" />
+  <Character file="Mods/Food and Drink/creatures/moloch.xml" />
+  <Afflictions file="Mods/Food and Drink/Afflictions.xml" />
+  <Jobs file="Mods/Food and Drink/Jobs.xml" />
+  <Item file="Mods/Food and Drink/items/placeables/cookingstation.xml" />
+  <Item file="Mods/Food and Drink/items/materials/growableplants.xml" />
+  <Item file="Mods/Food and Drink/items/food/advitems.xml" />
+  <Item file="Mods/Food and Drink/items/food/food.xml" />
+  <Item file="Mods/Food and Drink/items/food/drink.xml" />
+  <Item file="Mods/Food and Drink/items/food/rawfood.xml" />
+  <Item file="Mods/Food and Drink/items/food/vanillaoverride.xml" />
+  <Item file="Mods/Food and Drink/items/clothes/cook_clothes.xml" />
+  <None file="Mods/Food and Drink/InventoryIconAtlas.png" />
+  <None file="Mods/Food and Drink/items/food/spritesheet.png" />
+  <None file="Mods/Food and Drink/items/clothes/OutfitDroppedSprites.png" />
+  <None file="Mods/Food and Drink/items/clothes/OutfitIcons.png" />
+  <None file="Mods/Food and Drink/items/clothes/cook_legs_female_1.png" />
+  <None file="Mods/Food and Drink/items/clothes/cook_legs_male_1.png" />
+  <None file="Mods/Food and Drink/items/clothes/cook_torso_female_1.png" />
+  <None file="Mods/Food and Drink/items/clothes/cook_torso_male_1.png" />
+  <None file="Mods/Food and Drink/MainIconAtlas.png" />
+  <None file="Mods/Food and Drink/items/placeables/cookingstation.png" />
+  <None file="Mods/Food and Drink/items/clothes/chefhat.png" />
+</contentpackage>

@@ -1,0 +1,44 @@
+
+<Items>
+  <Override>
+    <Item name="" identifier="creepingorange" category="Material" maxstacksize="8" Tags="smallitem,plantitem,petfood1,petfood2,petfood3" useinhealthinterface="true" cargocontaineridentifier="metalcrate" scale="0.5" impactsoundtag="impact_soft" impacttolerance="5.5" allowasextracargo="true">
+      <Sprite texture="Content/Items/Gardening/GrowablePlants_Temp.png" depth="0.2" sourcerect="971,649,43,55" origin="0.5,0.5" />
+      <Body radius="30" density="5" />
+      <Price baseprice="40" soldeverywhere="false">
+        <Price locationtype="outpost" multiplier="1" sold="false" />
+        <Price locationtype="city" multiplier="1.2" sold="false" />
+        <Price locationtype="research" multiplier="1.1" sold="false" />
+        <Price locationtype="military" multiplier="0.8" sold="false" />
+        <Price locationtype="mine" multiplier="0.75" sold="false" />
+      </Price>
+      <Deconstruct time="35">
+        <Item identifier="carbon" copycondition="true" mincondition="0.1" />
+        <Item identifier="creepingorangevineseed" copycondition="true" mincondition="0.1" />
+      </Deconstruct>
+      <Holdable canBeCombined="false" removeOnCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+      <Throwable characterusable="true" canBeCombined="false" slots="Any,RightHand,LeftHand" throwforce="4.0" aimpos="35,-10" msg="ItemMsgPickUpSelect">
+        <StatusEffect type="OnImpact" target="This" Condition="0.0" setvalue="true">
+          <Explosion range="0.0" structuredamage="0" itemdamage="0" force="0.0" severlimbsprobability="0.0" decal="fruitsplatter1" decalsize="1.0" />
+          <ParticleEmitter particle="whitegoosplash" anglemin="0" anglemax="360" particleamount="2" velocitymin="0" velocitymax="0" scalemin="1.5" scalemax="2" />
+          <ParticleEmitter particle="fruitchunks" anglemin="0" anglemax="360" particleamount="10" velocitymin="200" velocitymax="300" scalemin="0.4" scalemax="0.8" />
+          <Remove />
+        </StatusEffect>
+        <StatusEffect type="OnFire" target="This" Condition="-50.0" />
+        <StatusEffect type="OnBroken" target="This" Condition="-100.0">
+          <Remove />
+        </StatusEffect>
+      </Throwable>
+      <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+  			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+  			<StatusEffect tags="poison" type="OnUse" target="Character">
+  				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+  				<ReduceAffliction identifier="fad_hunger" amount="10" />
+  			</StatusEffect>
+  			<StatusEffect type="OnBroken" target="This">
+  				<Remove />
+  			</StatusEffect>
+  		</MeleeWeapon>
+      <AiTarget sightrange="1000" static="true" />
+    </Item>
+  </Override>
+</Items>
