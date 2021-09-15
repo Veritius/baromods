@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="tripwirelibrary" path="Mods/tripwirelibrary/filelist.xml" corepackage="false" gameversion="0.14.6.0">
+    <None file="Mods/tripwirelibrary/readme.md" />
+    <None file="Mods/tripwirelibrary/lua/autorun/autorun.lua" />
+    <None file="Mods/tripwirelibrary/lua/utilities.lua" />
+    <None file="Mods/tripwirelibrary/lua/timekeeper.lua" />
+</contentpackage>
