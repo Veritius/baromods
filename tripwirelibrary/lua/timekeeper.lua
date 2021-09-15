@@ -2,6 +2,7 @@ tw.data.waitTable = {}
 
 Hook.Add("roundStart","tw_roundStart", function()
     tw.data.currentThinkInt=0
+    tw.data.waitTable = {}
 end)
 
 Hook.Add("think","tw_thinkCycle", function()
@@ -9,15 +10,16 @@ Hook.Add("think","tw_thinkCycle", function()
     for key, data in pairs(tw.data.waitTable) do
         if data[1] == tw.data.currentThinkInt then
             data[2]()
+            tw.data.waitTable[key] = nil --remove from table
         end
     end
 end)
 
 tw.func.wait = function(tickWait,secondWait,functionToCall)
-    if secondWait > 0 and tickWait > -1 then
-        local wellNamedVar = (tw.data.currentThinkInt+tickWait+(tw.data.thinkRate*secondWait))
+    if secondWait > -1 and tickWait > -1 and (secondWait+tickWait>0) then
+        local targetTickInt = (tw.data.currentThinkInt+tickWait+(tw.data.thinkRate*secondWait))
         local assembledTable = {
-            wellNamedVar,
+            targetTickInt,
             functionToCall
         }
         table.insert(tw.data.waitTable, assembledTable)
