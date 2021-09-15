@@ -6,11 +6,9 @@ end)
 
 Hook.Add("think","tw_thinkCycle", function()
     tw.data.currentThinkInt = tw.data.currentThinkInt + 1
-    if Game.RoundStarted == true then
-        for key, data in pairs(tw.data.waitTable) do
-            if data[1] == tw.data.currentThinkInt then
-                data[2]()
-            end
+    for key, data in pairs(tw.data.waitTable) do
+        if data[1] == tw.data.currentThinkInt then
+            data[2]()
         end
     end
 end)
