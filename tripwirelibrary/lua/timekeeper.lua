@@ -1,16 +1,17 @@
+tw.data.currentThinkInt = 0
 tw.data.waitTable = {}
 
-Hook.Add("roundStart","tw_roundStart", function()
+Hook.Add("roundStart","tw_timekeeperResetData", function()
     tw.data.currentThinkInt=0
     tw.data.waitTable = {}
 end)
 
-Hook.Add("think","tw_thinkCycle", function()
+Hook.Add("think","tw_timekeeperThinkCheck", function()
     tw.data.currentThinkInt = tw.data.currentThinkInt + 1
     for key, data in pairs(tw.data.waitTable) do
         if data[1] == tw.data.currentThinkInt then
             data[2]()
-            tw.data.waitTable[key] = nil --remove from table
+            tw.data.waitTable[key] = nil
         end
     end
 end)
