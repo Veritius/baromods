@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <infotexts language="English" nowhitespace="false" translatedname="English">
+    <entityname.timed40mmgrenade>Timed 40mm Grenade</entityname.timed40mmgrenade>
+	<entitydescription.timed40mmgrenade>A 40mm grenade with a 2 second timer until detonation.</entitydescription.timed40mmgrenade>
     <entityname.fulguriumpulselaserammobox>Fulgurium-Laced Pulse Laser Ammo Box</entityname.fulguriumpulselaserammobox>
 	<entitydescription.fulguriumpulselaserammobox>A collection of high-performance fulgurium-laced chemicals and lenses for use in a Pulse Laser.</entitydescription.fulguriumpulselaserammobox>
     <entityname.fulguriumpulselaserbolt>fulguriumpulselaserbolt</entityname.fulguriumpulselaserbolt>

@@ -23,8 +23,6 @@
         <entitydescription.vgm_45acp></entitydescription.vgm_45acp>
         <entityname.vgm_22lr>22lr cartridge</entityname.vgm_22lr>
 	    <entitydescription.vgm_22lr></entitydescription.vgm_22lr>
-        <entityname.vgm_radbolt>radbolt</entityname.vgm_radbolt>
-	    <entitydescription.vgm_radbolt></entitydescription.vgm_radbolt>
 
         <!--Throwables-->
         <entityname.vgm_stickgrenade>Stick Grenade</entityname.vgm_stickgrenade>
@@ -33,8 +31,6 @@
         <!--Gun Ammo-->
         <entityname.vgm_infinitemag>Infinite Universal Magazine</entityname.vgm_infinitemag>
 	    <entitydescription.vgm_infinitemag>This is a ludicrously cheaty item. It's infinite, it's universal, and it's not at all balanced. Oh, and the bullets explode.</entitydescription.vgm_infinitemag>
-        <entityname.vgm_fissioncell>Fission Cell</entityname.vgm_fissioncell>
-	    <entitydescription.vgm_fissioncell>A nuclear fission cell for a portable particle accelerator.</entitydescription.vgm_fissioncell>
         <entityname.vgm_glock17magazine>Glock 17 Magazine</entityname.vgm_glock17magazine>
         <entitydescription.vgm_glock17magazine>A magazine for the Glock 17.</entitydescription.vgm_glock17magazine>
         <entityname.vgm_makarovmagazine>Makarov Magazine</entityname.vgm_makarovmagazine>
@@ -87,8 +83,6 @@
         <entitydescription.vgm_45revolverroundexplosive>An explosive-tipped revolver round for the .45 Revolver.</entitydescription.vgm_45revolverroundexplosive>
         <entityname.vgm_40mmrubberbullet>40mm Rubber Bullet</entityname.vgm_40mmrubberbullet>
 	    <entitydescription.vgm_40mmrubberbullet>A less-lethal 40mm grenade that stuns a single target effectively.</entitydescription.vgm_40mmrubberbullet>
-        <entityname.vgm_timed40mmgrenade>Timed 40mm Grenade</entityname.vgm_timed40mmgrenade>
-	    <entitydescription.vgm_timed40mmgrenade>A 40mm grenade with a 2 second fuse.</entitydescription.vgm_timed40mmgrenade>
 
         <!--Handheld Weapons-->
         <entityname.vgm_antiairpistol>Anti-Air Pistol</entityname.vgm_antiairpistol>
@@ -107,8 +101,6 @@
 	    <entitydescription.vgm_zip22>A semi-automatic bullpup pistol so bad it killed a company. Known for malfunctions, poor design, and being generally terrible, this gun has a special place in history through how immensely awful it was.</entitydescription.vgm_zip22>
         <entityname.vgm_eokapistol>Eoka Pistol</entityname.vgm_eokapistol>
 	    <entitydescription.vgm_eokapistol>A crudely assembled 20mm cartridge attached to a 'handle' with wire.</entitydescription.vgm_eokapistol>
-        <entityname.vgm_particleaccelerator>Handheld Particle Accelerator</entityname.vgm_particleaccelerator>
-	    <entitydescription.vgm_particleaccelerator>A handheld particle accelerator that releases extremely rapid bursts of high-energy particles out at near-perfect accuracy, irradiating living tissue and shattering any DNA in its path.</entitydescription.vgm_particleaccelerator>
         <entityname.vgm_makeshiftshotgun>Makeshift Shotgun</entityname.vgm_makeshiftshotgun>
 	    <entitydescription.vgm_makeshiftshotgun>A DIY shotgun crudely hammered out of metal pipe, 'designed' to take 12ga shells. Probably not a good idea to put this next to your face.</entitydescription.vgm_makeshiftshotgun>
         <entityname.vgm_musket>Musket</entityname.vgm_musket>
@@ -121,8 +113,6 @@
 	    <entitydescription.vgm_remington870>A reliable, effective pump-action shotgun.</entitydescription.vgm_remington870>
         <entityname.vgm_saiga12>Saiga 12</entityname.vgm_saiga12>
 	    <entitydescription.vgm_saiga12>A high-capacity semi-automatic shotgun.</entitydescription.vgm_saiga12>
-        <entityname.vgm_obliterator>Obliterator</entityname.vgm_obliterator>
-	    <entitydescription.vgm_obliterator>A 4 gauge shotgun with 4 simultaneously-fired barrels. Stand against a wall when firing.</entitydescription.vgm_obliterator>
         <entityname.vgm_greasegun>Grease Gun</entityname.vgm_greasegun>
 	    <entitydescription.vgm_greasegun></entitydescription.vgm_greasegun>
         <entityname.vgm_milkormgl>Milkor MGL</entityname.vgm_milkormgl>

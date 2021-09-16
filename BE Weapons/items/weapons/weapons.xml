@@ -1,0 +1,31 @@
+<Items>
+    <Item name="" identifier="timed40mmgrenade" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
+        <Deconstruct time="5">
+            <Item identifier="iron" />
+            <Item identifier="uex" />
+        </Deconstruct>
+        <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,960,64,64" origin="0.5,0.5" />
+        <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="215,286,41,17" depth="0.55" origin="0.5,0.5" />
+        <Body width="38" height="15" density="30" />
+        <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
+        <Projectile characterusable="false" launchimpulse="20.0" sticktocharacters="false">
+            <Attack structuredamage="1">
+                <Affliction identifier="blunttrauma" strength="5" />
+                <Affliction identifier="stun" strength="0.2" />
+            </Attack>
+            <sound file="Content/Items/Weapons/FragGrenade40mmShot1.ogg" type="OnImpact" range="500" selectionmode="Random" />
+            <sound file="Content/Items/Weapons/FragGrenade40mmShot2.ogg" type="OnImpact" range="500" />
+            <StatusEffect type="OnUse" delay="2" Condition="-100.0" disabledeltatime="true">
+                <Explosion range="250.0" ballastfloradamage="110" structuredamage="10" levelwalldamage="500" itemdamage="500" force="10.0" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
+                    <Affliction identifier="bleeding" strength="40" />
+                    <Affliction identifier="explosiondamage" strength="80" />
+                    <Affliction identifier="stun" strength="5" />
+                </Explosion>
+                <sound file="Content/Items/Weapons/StunGrenade.ogg" />
+            </StatusEffect>
+            <StatusEffect type="OnBroken" >
+                <Remove />
+            </StatusEffect>
+        </Projectile>
+    </Item>
+</Items>

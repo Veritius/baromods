@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="verisgunmod" path="Mods/verisgunmod/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2601660811" installtime="1631607133">
+<contentpackage name="verisgunmod" path="Mods/verisgunmod/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2601660811" installtime="1631776774">
   <Text file="Mods/verisgunmod/text/english_infotexts.xml" />
   <Item file="Mods/verisgunmod/items/weapons.xml" />
   <None file="Mods/verisgunmod/assets/images/InventoryIconAtlas.png" />

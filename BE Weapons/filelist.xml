@@ -1,6 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="BE Weapons" path="Mods/BE Weapons/filelist.xml" corepackage="false" gameversion="0.14.6.0" steamworkshopid="2568299432" installtime="1628334402">
   <Text file="Mods/BE Weapons/text/english_infotexts.xml" />
+  <Item file="Mods/BE Weapons/items/weapons/weapons.xml" />
   <Item file="Mods/BE Weapons/items/weapons/turrets/pulselaser.xml" />
   <Item file="Mods/BE Weapons/items/weapons/turrets/railgun.xml" />
   <None file="Mods/BE Weapons/assets/InventoryIconAtlas.png" />

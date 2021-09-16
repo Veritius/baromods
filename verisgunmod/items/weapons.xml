@@ -135,21 +135,6 @@
                 </StatusEffect>
             </Projectile>
         </Item>
-        <Item name="" identifier="vgm_radbolt" category="Equipment" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem" impactsoundtag="impact_metal_light" hideinmenus="true" scale="0.5">
-            <InventoryIcon texture="Mods/verisgunmod/assets/images/weapons.png" sourcerect="95,55,6,6" origin="0.5,0.5" />
-            <Sprite texture="Mods/verisgunmod/assets/images/weapons.png" sourcerect="95,55,6,6" depth="0.55" origin="0.5,0.5" />
-            <Body width="16" height="6" density="40" />
-            <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
-            <Projectile characterusable="false" hitscan="true" removeonhit="true">
-                <ParticleEmitter particle="tracerfirearm" particleamount="1" velocitymin="0" velocitymax="0" colormultiplier="14,175,248,76" scalemultiplier="1,0.6"/>
-                <StatusEffect type="OnImpact">
-                    <Explosion range="10" force="0.1" flash="false" shockwave="false" underwaterbubble="false" flames="false" sparks="false" smoke="false">
-                        <Affliction identifier="radiationsickness" strength="0.05" />
-                    </Explosion>
-                    <Remove />
-                </StatusEffect>
-            </Projectile>
-        </Item>
     <!--
     Throwables
     -->
@@ -193,19 +178,6 @@
                 <Containable items="vgm_45revolverroundexplosive" />
                 <StatusEffect type="OnUse" target="This" condition="0.0" disabledeltatime="true">
                     <SpawnItem identifiers="vgm_45revolverroundexplosive" spawnposition="ThisInventory" />
-                </StatusEffect>
-            </ItemContainer>
-            <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
-        </Item>
-        <Item name="" identifier="vgm_fissioncell" maxstacksize="3" scale="0.5" category="Equipment" cargocontaineridentifier="metalcrate" linkable="true" tags="smallitem,papowercell" impactsoundtag="impact_metal_light">
-            <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="576,64,64,64" origin="0.5,0.5" />
-            <Sprite texture="Content/Items/Tools/tools.png" depth="0.55" sourcerect="410,1,19,68" />
-            <Body width="19" height="68" density="50" />
-            <ItemContainer hideitems="true" capacity="1" drawinventory="false" canbeselected="false" ShowConditionInContainedStateIndicator="true" SpawnWithId="smground" removecontaineditemsondeconstruct="true" containedstateindicatorstyle="bullet">
-                <Containable items="vgm_radbolt" />
-                <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
-                <StatusEffect type="OnUse" target="This" condition="-0.06" disabledeltatime="true">
-                    <SpawnItem identifiers="vgm_radbolt" spawnposition="ThisInventory" />
                 </StatusEffect>
             </ItemContainer>
             <Holdable canBeCombined="true" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
@@ -697,35 +669,6 @@
                 </StatusEffect>
             </Projectile>
         </Item>
-        <Item name="" identifier="vgm_timed40mmgrenade" category="Equipment" maxstacksize="8" interactthroughwalls="true" cargocontaineridentifier="metalcrate" tags="smallitem,grenade" Scale="0.5" impactsoundtag="impact_metal_light">
-            <Deconstruct time="5">
-            <Item identifier="iron" />
-            <Item identifier="uex" />
-            </Deconstruct>
-            <InventoryIcon texture="Content/Items/InventoryIconAtlas.png" sourcerect="704,960,64,64" origin="0.5,0.5" />
-            <Sprite texture="Content/Items/Weapons/weapons_new.png" sourcerect="215,286,41,17" depth="0.55" origin="0.5,0.5" />
-            <Body width="38" height="15" density="30" />
-            <Pickable slots="Any" msg="ItemMsgPickUpSelect"/>
-            <Projectile characterusable="false" launchimpulse="20.0" sticktocharacters="false">
-                <Attack structuredamage="1">
-                    <Affliction identifier="blunttrauma" strength="5" />
-                    <Affliction identifier="stun" strength="0.2" />
-                </Attack>
-                <sound file="Content/Items/Weapons/FragGrenade40mmShot1.ogg" type="OnImpact" range="500" selectionmode="Random" />
-                <sound file="Content/Items/Weapons/FragGrenade40mmShot2.ogg" type="OnImpact" range="500" />
-                <StatusEffect type="OnUse" delay="2" Condition="-100.0" disabledeltatime="true">
-                    <Explosion range="250.0" ballastfloradamage="110" structuredamage="10" levelwalldamage="500" itemdamage="500" force="10.0" severlimbsprobability="0.5" decal="explosion" decalsize="0.5">
-                        <Affliction identifier="bleeding" strength="40" />
-                        <Affliction identifier="explosiondamage" strength="80" />
-                        <Affliction identifier="stun" strength="5" />
-                    </Explosion>
-                    <sound file="Content/Items/Weapons/StunGrenade.ogg" />
-                </StatusEffect>
-                <StatusEffect type="OnBroken" >
-                    <Remove />
-                </StatusEffect>
-            </Projectile>
-        </Item>
     <!--
     Player-Held Guns
     -->
@@ -974,29 +917,6 @@
             </ItemContainer>
             <aitarget sightrange="2000" soundrange="5000" fadeouttime="5" />
         </Item>
-        <Item name="" identifier="vgm_particleaccelerator" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_light">
-            <InventoryIcon texture="Mods/verisgunmod/assets/images/InventoryIconAtlas.png" sourcerect="128,0,64,64" origin="0.5,0.5" />
-            <Sprite texture="Mods/verisgunmod/assets/images/weapons.png" sourcerect="146,147,147,70" depth="0.55" origin="0.5,0.5" />
-            <Body width="147" height="70" density="50" />
-            <Holdable slots="Any,RightHand+LeftHand" controlpose="true" aimpos="90,10" handle1="-14,-7" msg="ItemMsgPickUpSelect" />
-            <RangedWeapon reload="0.01" barrelpos="0,22" spread="0.02" unskilledspread="0.1" combatPriority="70" drawhudwhenequipped="true" crosshairscale="0.2">
-                <RequiredItems items="papowercell" type="Contained" msg="ItemMsgAmmoRequired" />
-                <RequiredSkill identifier="weapons" level="40" />
-                <StatusEffect type="OnUse" target="this" stackable="false" duration="0.1" tags="beingUsed" />
-                <StatusEffect type="OnUse" target="Contained">
-                    <Use />
-                </StatusEffect>
-            </RangedWeapon>
-            <LightComponent LightColor="1.0,1.0,1.0,1.0" range="0" powerconsumption="0" IsOn="false" canbeselected="false">
-                <IsActive hasStatusTag="eq beingUsed" />
-                <Sprite texture="Mods/verisgunmod/assets/images/weapons.png" depth="0.025" sourcerect="293,147,147,79" origin="0.5,0.45" alpha="1.0" />
-            </LightComponent>
-            <ItemContainer capacity="1" maxstacksize="1" hideitems="true">
-                <Containable items="papowercell" />
-                <ContainedStateIndicator texture="Content/UI/ContainerIndicators.png" sourcerect="0,184,120,32" />
-            </ItemContainer>
-            <aitarget sightrange="100" soundrange="200" fadeouttime="5" />
-        </Item>
         <Item name="" identifier="vgm_makeshiftshotgun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_light">
             <Deconstruct time="10">
                 <Item identifier="iron" />
@@ -1189,36 +1109,6 @@
                 <Containable items="saiga12mag" />
             </ItemContainer>
             <aitarget sightrange="3000" soundrange="5000" fadeouttime="5" />
-        </Item>
-        <Item name="" identifier="vgm_obliterator" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_light">
-            <Deconstruct time="10">
-                <Item identifier="steel" />
-            </Deconstruct>
-            <InventoryIcon texture="Mods/verisgunmod/assets/images/InventoryIconAtlas.png" sourcerect="384,128,128,128" origin="0.5,0.5" />
-            <Sprite texture="Mods/verisgunmod/assets/images/weapons.png" sourcerect="151,227,230,36" depth="0.55" origin="0.5,0.5" />
-            <Body width="230" height="36" density="50" />
-            <Holdable slots="Any,RightHand+LeftHand" controlpose="true" holdpos="70,0" aimpos="90,10" handle1="-28,-8" handle2="24,8" holdangle="-40" msg="ItemMsgPickUpSelect"/>
-            <RangedWeapon barrelpos="45,10" spread="1.2" unskilledspread="8" combatPriority="80" reload="1.4" drawhudwhenequipped="true" crosshairscale="0.2">
-                <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
-                <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
-                <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-                <Sound file="Content/Items/Weapons/ShotgunShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-                <Sound file="Content/Items/Weapons/ShotgunShot2.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/ShotgunShot3.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/ShotgunShot4.ogg" type="OnUse" range="3000" />
-                <StatusEffect type="OnUse" target="Contained">
-                    <Use />
-                </StatusEffect>
-                <StatusEffect type="OnUse">
-                    <Explosion range="150.0" force="40" shockwave="false" smoke="true" flash="true" sparks="false" flames="false" underwaterbubble="false" camerashake="26.0" />
-                </StatusEffect>
-                <RequiredItems items="shotgunammo" type="Contained" msg="ItemMsgAmmoRequired" />
-                <RequiredSkill identifier="weapons" level="68" />
-            </RangedWeapon>
-            <ItemContainer capacity="4" maxstacksize="1" itempos="27,10" iteminterval="0,-4" hideitems="true" containedstateindicatorstyle="bullet">
-                <Containable items="shotgunammo" />
-            </ItemContainer>
-            <aitarget sightrange="5000" soundrange="8000" fadeouttime="7" />
         </Item>
         <Item name="" identifier="vgm_greasegun" category="Equipment" cargocontaineridentifier="metalcrate" tags="mediumitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_light">
             <Deconstruct time="10">
