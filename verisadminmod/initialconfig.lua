@@ -46,10 +46,10 @@ vam.config.karmaDecreaseOnBadBehavior=130 --[INT] How much karma score decreases
 --[[
     Text
     Change the text that appears to the player (like a language file)
+    If you're hosting a server in a different language, replace the strings in this script with translated versions.
 ]]--
-vam.config.motdenabled=true --[BOOL] Should a MOTD message appear on newly joined clients' screens
-vam.config.motdtitle="motdtitle" --[STR] Title of message (set this to the name of your server)
-vam.config.motdcontents="motdcontents" --[STR] Contents of message to send to newly joined clients
+vam.config.motdenabled=true --[BOOL] Should the server send a message to newly joined clients?
+vam.config.motdcontent="Put the content of your MOTD message here." --[STR] Contents of MOTD message to send to newly joined clients. Newlines not accepted.
 
 vam.config.servermessageprefix="[Server]" --[STR] If a message is sent to a player, it'll appear as if it came from someone named whatever this value is
 vam.config.messageInterceptionText="Your message contained prohibited words, and was intercepted. It will not be shown to any players." --[STR] Text to display if a message is intercepted
