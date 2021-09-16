@@ -11,6 +11,7 @@ functionToCall is a function that should contain the code you want to execute ne
 *Wait function example*
 ```
 tw.func.wait(0, 3, function()
+    --Waits for 3 seconds and 0 ticks
     --The code you want to run goes here
 end)
 ```
