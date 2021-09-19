@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentpackage name="Easy Sub Lock" path="Mods/EasySubLock/filelist.xml" corepackage="false" gameversion="0.14.6.0">
+    <None file="Mods/EasySubLock/lua/autorun/autorun.lua" />
+    <Item file="Mods/EasySubLock/items/lockcomponent.xml" />
+    <Text file="Mods/EasySubLock/text/english_infotexts.xml" />
+</contentpackage>

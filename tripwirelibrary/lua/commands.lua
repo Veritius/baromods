@@ -1,3 +1,5 @@
+vm.data.commandArray={}
+
 Hook.Add("chatMessage", "tw_commandHandler", function(message, client)
     message = message:lower()
 
@@ -9,3 +11,7 @@ Hook.Add("chatMessage", "tw_commandHandler", function(message, client)
         return true
     end
 end)
+
+tw.func.addCommand = function(...)
+
+end

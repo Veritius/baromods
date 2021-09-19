@@ -19,10 +19,7 @@ end)
 tw.func.wait = function(tickWait,secondWait,functionToCall)
     if secondWait > -1 and tickWait > -1 and (secondWait+tickWait>0) then
         local targetTickInt = (tw.data.currentThinkInt+tickWait+(tw.data.thinkRate*secondWait))
-        local assembledTable = {
-            targetTickInt,
-            functionToCall
-        }
+        local assembledTable = {targetTickInt, functionToCall}
         table.insert(tw.data.waitTable, assembledTable)
     end
 end

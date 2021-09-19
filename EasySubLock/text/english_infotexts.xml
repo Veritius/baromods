@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="English" nowhitespace="false" translatedname="English">
+    <entityname.esl_locker_xy>XY Submarine Locker</entityname.esl_locker_xy>
+	<entitydescription.esl_locker_xy>Place anywhere in the submarine to lock it in place on the X and Y axes.</entitydescription.esl_locker_xy>
+</infotexts>
