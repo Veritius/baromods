@@ -12,7 +12,6 @@ end
 
 --Run relevant scripts
 dofile("Mods/verisadminmod/initialconfig.lua")
-dofile("Mods/verisadminmod/lua/utilities.lua")
 dofile("Mods/verisadminmod/lua/commands.lua")
 dofile("Mods/verisadminmod/lua/chatinterceptor.lua")
 dofile("Mods/verisadminmod/lua/dccharremover.lua")

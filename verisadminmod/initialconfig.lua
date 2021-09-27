@@ -48,7 +48,7 @@ vam.config.karmaDecreaseOnBadBehavior=130 --[INT] How much karma score decreases
     Change the text that appears to the player (like a language file)
     If you're hosting a server in a different language, replace the strings in this script with translated versions.
 ]]--
-vam.config.motdenabled=true --[BOOL] Should the server send a message to newly joined clients?
+vam.config.motdenabled=false --[BOOL] Should the server send a message to newly joined clients?
 vam.config.motdcontent="Put the content of your MOTD message here." --[STR] Contents of MOTD message to send to newly joined clients. Newlines not accepted.
 
 vam.config.servermessageprefix="[Server]" --[STR] If a message is sent to a player, it'll appear as if it came from someone named whatever this value is

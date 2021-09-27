@@ -1,4 +1,25 @@
-tw.func.stringstarts = function(input, cond)
-    -- Original function made by EvilFactory, modified by Veritius
-    return string.sub(input, 1, string.len(cond)) == cond
+tw.func.stringstarts = function(str, sw)
+    return string.sub(str, 1, #sw) == str
 end
+
+tw.func.average = function(t)
+    local s = 0
+    for _,v in pairs(t) do
+        s = s + v
+    end
+    return s / #t
+end
+
+--[[
+tw.func.getGridItems = function(includeConnectedSubs)
+    local rt = {}
+    local sb = Submarine.MainSub.GetItems(includeConnectedSubs)
+    for _,v in Ipairs(sb) do
+        if v.ParentInventory == nil then
+            rt:insert(v)
+            print(v)
+        end
+    end
+    return rt
+end
+]]
