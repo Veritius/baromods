@@ -1,8 +1,22 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="verisgunmod" path="Mods/verisgunmod/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2601660811" installtime="1631776774">
+<contentpackage name="verisgunmod" path="Mods/verisgunmod/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2601660811" installtime="1631777716">
   <Text file="Mods/verisgunmod/text/english_infotexts.xml" />
   <Item file="Mods/verisgunmod/items/weapons.xml" />
   <None file="Mods/verisgunmod/assets/images/InventoryIconAtlas.png" />
   <None file="Mods/verisgunmod/assets/images/weapons.png" />
-  <None file="Mods/verisgunmod/assets/sounds/m1garandping_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/AK47_Firing_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_2.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_3.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_4.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_2.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_3.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1_Garand_Firing_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1911_Firing_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1911_Firing_2.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1911_Firing_3.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/M1911_Firing_4.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Makarov_Firing_1.ogg" />
+  <None file="Mods/verisgunmod/assets/sounds/Saiga_12_Firing_1.ogg" />
 </contentpackage>
