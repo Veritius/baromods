@@ -10,13 +10,16 @@ tw.func.average = function(t)
     return s / #t
 end
 
+--[[
 tw.func.getGridItems = function(includeConnectedSubs)
     local rt = {}
-    local sb = Submarine.GetItems(includeConnectedSubs)
+    local sb = Submarine.MainSub.GetItems(includeConnectedSubs)
     for _,v in Ipairs(sb) do
         if v.ParentInventory == nil then
             rt:insert(v)
+            print(v)
         end
     end
     return rt
 end
+]]

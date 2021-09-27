@@ -1,5 +1,9 @@
-vm.data.commandArray={}
+--vm.data.commandArray={}
 
+--Commenting this all out for... reasons
+
+
+--[[
 Hook.Add("chatMessage", "tw_commandHandler", function(message, client)
     message = message:lower()
 
@@ -11,7 +15,10 @@ Hook.Add("chatMessage", "tw_commandHandler", function(message, client)
         return true
     end
 end)
+]]
 
+--[[
 tw.func.addCommand = function(...)
 
 end
+]]--
