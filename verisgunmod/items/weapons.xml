@@ -766,10 +766,10 @@
                 <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
                 <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
                 <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_2.ogg" type="OnUse" range="3000" />
-                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_3.ogg" type="OnUse" range="3000" />
-                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_4.ogg" type="OnUse" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_1.ogg" type="OnUse" volume="0.6" range="3000" selectionmode="Random" />
+                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_2.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_3.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/Glock_17_Firing_4.ogg" type="OnUse" volume="0.6" range="3000" />
                 <StatusEffect type="OnUse">
                     <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="3.0" />
                 </StatusEffect>
@@ -796,7 +796,7 @@
                 <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
                 <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
                 <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-                <Sound file="Mods/verisgunmod/assets/sounds/Makarov_Firing_1.ogg" type="OnUse" range="3000" selectionmode="Random" />
+                <Sound file="Mods/verisgunmod/assets/sounds/Makarov_Firing_1.ogg" type="OnUse" volume="0.5" range="3000" selectionmode="Random" />
                 <StatusEffect type="OnUse">
                     <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="3.0" />
                 </StatusEffect>
@@ -814,6 +814,7 @@
         <Item name="" identifier="vgm_m1911" category="Equipment" cargocontaineridentifier="metalcrate" tags="smallitem,weapon,gun" Scale="0.5" impactsoundtag="impact_metal_light">
             <Deconstruct time="10">
                 <Item identifier="plastic" />
+                <Item identifier="steel" />
             </Deconstruct>
             <InventoryIcon texture="Mods/verisgunmod/assets/images/InventoryIconAtlas.png" sourcerect="320,0,64,64" origin="0.5,0.5" />
             <Sprite texture="Mods/verisgunmod/assets/images/weapons.png" sourcerect="1,99,63,38" depth="0.55" origin="0.5,0.5" />
@@ -823,10 +824,10 @@
                 <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
                 <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
                 <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_2.ogg" type="OnUse" range="3000" />
-                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_3.ogg" type="OnUse" range="3000" />
-                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_4.ogg" type="OnUse" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_1.ogg" type="OnUse" volume="0.6" range="3000" selectionmode="Random" />
+                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_2.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_3.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Mods/verisgunmod/assets/sounds/M1911_Firing_4.ogg" type="OnUse" volume="0.6" range="3000" />
                 <StatusEffect type="OnUse">
                     <Explosion range="150.0" force="2" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="3.0" />
                 </StatusEffect>
@@ -1024,9 +1025,9 @@
                 </StatusEffect>
                 <StatusEffect type="OnUse" target="This" delay="0.2">
                     <Conditional hasStatusTag="eq isLoaded" />
-                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_1.ogg" range="1000" selectionmode="Random" />
-                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_2.ogg" />
-                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_3.ogg" />
+                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_1.ogg" volume="0.6" range="1000" selectionmode="Random" />
+                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_2.ogg" volume="0.6" />
+                    <Sound file="Mods/verisgunmod/assets/sounds/M1_Garand_Clip_Eject_3.ogg" volume="0.6" />
                 </StatusEffect>
                 <RequiredItems items="3006round" type="Contained" msg="ItemMsgAmmoRequired" />
                 <RequiredSkill identifier="weapons" level="45" />
@@ -1172,12 +1173,12 @@
                 <Crosshair texture="Content/Items/Weapons/Crosshairs.png" sourcerect="0,256,256,256" />
                 <CrosshairPointer texture="Content/Items/Weapons/Crosshairs.png" sourcerect="256,256,256,256" />
                 <ParticleEmitter particle="muzzleflash" particleamount="1" velocitymin="0" velocitymax="0" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" range="3000" selectionmode="Random" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" range="3000" />
-                <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" range="3000" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot1.ogg" type="OnUse" volume="0.6" range="3000" selectionmode="Random" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot2.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot3.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot4.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot5.ogg" type="OnUse" volume="0.6" range="3000" />
+                <Sound file="Content/Items/Weapons/SMGsingleShot6.ogg" type="OnUse" volume="0.6" range="3000" />
                 <StatusEffect type="OnUse">
                     <Explosion range="150.0" force="1.9" shockwave="false" smoke="false" flames="false" sparks="false" underwaterbubble="false" camerashake="12.0" />
                 </StatusEffect>
