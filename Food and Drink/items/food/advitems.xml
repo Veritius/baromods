@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Items>
   <Item name="" identifier="fad_compatpill" category="Misc" maxstacksize="1" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
-		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="0">
-      <RequiredSkill identifier="cooking" level="1" />
-		</Fabricate>
+		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="0" />
 		<Deconstruct time="0">
 		</Deconstruct>
 		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="832,0,64,64" origin="0.5,0.5" />
