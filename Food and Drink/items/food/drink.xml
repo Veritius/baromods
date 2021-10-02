@@ -9,11 +9,9 @@
 			<Price locationtype="research" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="10">
-			<RequiredSkill identifier="cooking" level="0" />
 			<RequiredItem identifier="plastic" />
 		</Fabricate>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" displayname="fad_waterrefill" requiredtime="8">
-      <RequiredSkill identifier="cooking" level="0" />
 			<RequiredItem identifier="fad_waterbottle" />
     </Fabricate>
 		<Deconstruct time="5">
@@ -38,13 +36,11 @@
 			<Price locationtype="research" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="60">
-			<RequiredSkill identifier="cooking" level="5" />
 			<RequiredItem identifier="plastic" />
 			<RequiredItem identifier="fad_coffeebean" />
 			<RequiredItem identifier="fad_coffeebean" />
 		</Fabricate>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" displayname="fad_coffeerefill" requiredtime="40">
-      <RequiredSkill identifier="cooking" level="5" />
 			<RequiredItem identifier="fad_coffee" />
 			<RequiredItem identifier="fad_coffeebean" />
 			<RequiredItem identifier="fad_coffeebean" />
@@ -72,7 +68,6 @@
 			<Price locationtype="military" multiplier="1.3" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="90">
-			<RequiredSkill identifier="cooking" level="22" />
 			<RequiredItem identifier="ethanol" />
 		</Fabricate>
 		<Deconstruct time="45">
@@ -101,7 +96,6 @@
 			<Price locationtype="research" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="60">
-			<RequiredSkill identifier="cooking" level="5" />
 			<RequiredItem identifier="saltbulb" />
 		</Fabricate>
 		<Deconstruct time="45">

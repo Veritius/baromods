@@ -10,7 +10,6 @@
 			<Price locationtype="research" multiplier="1.1" minavailable="4" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
-			<RequiredSkill identifier="cooking" level="15" />
 			<RequiredItem identifier="carbon" />
 		</Fabricate>
 		<Deconstruct time="45">
@@ -39,7 +38,6 @@
 			<Price locationtype="research" multiplier="1.1" minavailable="4" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
-			<RequiredSkill identifier="cooking" level="15" />
 			<RequiredItem identifier="carbon" />
 		</Fabricate>
 		<Deconstruct time="45">
@@ -65,7 +63,6 @@
 			<Price locationtype="city" multiplier="0.9" minavailable="2" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="100">
-			<RequiredSkill identifier="cooking" level="35" />
 			<RequiredItem identifier="fiberplant" />
 			<RequiredItem identifier="yeastshroom" />
 		</Fabricate>
@@ -102,7 +99,6 @@
 			<Price locationtype="research" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="90">
-			<RequiredSkill identifier="cooking" level="15" />
 			<RequiredItem identifier="fiberplant" />
 		</Fabricate>
 		<Deconstruct time="30">
@@ -127,7 +123,6 @@
 			<Price locationtype="city" multiplier="1" minavailable="0" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="120">
-			<RequiredSkill identifier="cooking" level="60" />
 			<RequiredItem identifier="huskeggs" />
 			<RequiredItem identifier="stabilozine" />
 		</Fabricate>
@@ -157,7 +152,6 @@
 			<Price locationtype="city" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="90">
-			<RequiredSkill identifier="cooking" level="15" />
 			<RequiredItem identifier="elastinplant" />
 		</Fabricate>
 		<Deconstruct time="30">
@@ -182,7 +176,6 @@
 			<Price locationtype="city" multiplier="1" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="80">
-			<RequiredSkill identifier="cooking" level="45" />
 			<RequiredItem identifier="smallmudraptoregg" />
 			<RequiredItem identifier="sodium" />
 		</Fabricate>
@@ -209,7 +202,6 @@
 			<Price locationtype="city" multiplier="1" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="50">
-			<RequiredSkill identifier="cooking" level="45" />
 			<RequiredItem identifier="fad_crawlermeat" />
 			<RequiredItem identifier="sodium" />
 		</Fabricate>
@@ -236,7 +228,6 @@
 			<Price locationtype="city" multiplier="1" minavailable="3" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="60">
-			<RequiredSkill identifier="cooking" level="25" />
 			<RequiredItem identifier="fad_molochmeat" />
 			<RequiredItem identifier="sodium" />
 		</Fabricate>

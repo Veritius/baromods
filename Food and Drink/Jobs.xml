@@ -9,7 +9,6 @@
       <Skill identifier="mechanical" level="3,4" />
       <Skill identifier="electrical" level="3,5" />
       <Skill identifier="medical" level="5,12" />
-	    <Skill identifier="cooking" level="40,50" />
     </Skills>
     <ItemSet>
       <Item identifier="idcard" equip="true" showpreview="false" />
