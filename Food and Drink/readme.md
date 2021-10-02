@@ -5,7 +5,7 @@ This mod is designed for campaign, and it isn't recommended to use this in Missi
 **Features**
 - 11 different foods: 11 unique, immersive, and interesting foods to keep you engaged. From the peak of luxury to basically dirt, there's a whole spectrum of foods to try.
 - 4 different drinks: Kick back, relax, and enjoy some Saltbulb Juice as your hull is smashed in by mudraptors.
-- Cook job and Cooking skill: This mod adds a dedicated Cook job for high-intensity cooking gameplay (and rp)
+- Cook job: This mod adds a dedicated Cook job for high-intensity cooking gameplay (and rp)
 - Agriculture: Grow crops to feed your crew, expanding on the base plant system
 - Hunting: Hunt the denizens of Europa for food
 
