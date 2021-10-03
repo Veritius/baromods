@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <contentpackage name="verisadminmod" path="Mods/verisadminmod/filelist.xml" corepackage="false" gameversion="0.14.6.0">
-    <None file="Mods/verisadminmod/lua/autorun/autorun.lua" />
+    <None file="Mods/verisadminmod/Lua/autorun/autorun.lua" />
     <None file="Mods/verisadminmod/initialconfig.lua" />
-    <None file="Mods/verisadminmod/lua/commands.lua" />
-    <None file="Mods/verisadminmod/lua/chatinterceptor.lua" />
-    <None file="Mods/verisadminmod/lua/dccharremover.lua" />
-    <None file="Mods/verisadminmod/lua/motd.lua" />
+    <None file="Mods/verisadminmod/Lua/commands.lua" />
+    <None file="Mods/verisadminmod/Lua/chatinterceptor.lua" />
+    <None file="Mods/verisadminmod/Lua/dccharremover.lua" />
+    <None file="Mods/verisadminmod/Lua/motd.lua" />
 </contentpackage>
