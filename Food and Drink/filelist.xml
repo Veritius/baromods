@@ -1,8 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<contentpackage name="Food and Drink" path="Mods/Food and Drink/filelist.xml" corepackage="false" gameversion="0.14.9.0" steamworkshopid="2534299874" installtime="1630132184">
+<contentpackage name="Food and Drink" path="Mods/Food and Drink/filelist.xml" corepackage="false" gameversion="0.14.9.1" steamworkshopid="2534299874" installtime="1633143031">
   <Text file="Mods/Food and Drink/text/english.xml" />
   <Character file="Mods/Food and Drink/Human.xml" />
   <Character file="Mods/Food and Drink/creatures/crawler.xml" />
+  <Character file="Mods/Food and Drink/creatures/Spineling.xml" />
+  <Character file="Mods/Food and Drink/creatures/Tigerthresher.xml" />
+  <Character file="Mods/Food and Drink/creatures/Bonethresher.xml" />
   <Character file="Mods/Food and Drink/creatures/moloch.xml" />
   <Afflictions file="Mods/Food and Drink/Afflictions.xml" />
   <Jobs file="Mods/Food and Drink/Jobs.xml" />

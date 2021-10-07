@@ -10,7 +10,7 @@
       <Price locationtype="city" multiplier="1.2" minavailable="1" />
       <Price locationtype="research" multiplier="0.9" minavailable="1" />
       <Price locationtype="military" multiplier="1.2" sold="false" />
-      <Price locationtype="mine" multiplier="0.75" sold="false" />
+      <Price locationtype="mine" multiplier="1.5" sold="false" />
     </Price>
     <Deconstruct time="30">
       <Item identifier="carbon" copycondition="true" mincondition="0.1" />
@@ -44,4 +44,47 @@
     <Body radius="15" density="12" />
     <Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
   </Item>
+	<Item name="Fluor" identifier="fad_fluor" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical" useinhealthinterface="true" scale="0.7" description="While not edible in itself, this material is pristine to craft other various carbohidrate based pastas and batter" impactsoundtag="impact_light">
+		<Price baseprice="150" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" sold="false"/>
+			<Price locationtype="city" multiplier="1.25" minavailable="0" />
+			<Price locationtype="military" multiplier="0.8" sold="false" />
+			<Price locationtype="research" multiplier="0.7" minavailable="6" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
+			<RequiredItem identifier="magnesium" mincondition="0.5"/>
+			<RequiredItem identifier="sodium" />
+			<RequiredItem identifier="calcium" />
+			<RequiredItem identifier="phosphorus" />
+			<RequiredItem identifier="potassium" mincondition="0.5"/>
+		</Fabricate>
+		<Deconstruct time="45">
+			<RequiredItem identifier="sodium" />
+			<RequiredItem identifier="calcium" />
+			<RequiredItem identifier="phosphorus" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="45,131,27,22" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="45,131,27,22" depth="0.6" origin="0.5,0.5" />
+		<Body width="30" height="30" density="20" />
+                <Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+	</Item>
+	<Item name="CarbonHydrate" identifier="fad_carb" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical" useinhealthinterface="true" scale="0.5" description="CarbonHydrate is a quite simple and light material present in most if not all batter and mass, originated from wheat and alike, is great to multiply the nutricious aspect of edible compounds" impactsoundtag="impact_light">
+		<Price baseprice="50" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" sold="false"/>
+			<Price locationtype="city" multiplier="1.5" minavailable="0" />
+			<Price locationtype="military" multiplier="0.8" sold="false" />
+			<Price locationtype="research" multiplier="1" minavailable="6" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
+			<RequiredItem identifier="fad_waterbottle" mincondition="1" />
+			<RequiredItem identifier="carbon" />
+		</Fabricate>
+		<Deconstruct time="45">
+			<RequiredItem identifier="carbon" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="197,4,22,42" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="197,4,22,42" depth="0.6" origin="0.5,0.5" />
+		<Body width="30" height="30" density="20" />
+               <Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
+	</Item>
 </Items>
