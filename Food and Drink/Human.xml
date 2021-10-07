@@ -11,14 +11,19 @@
 	  <animations folder="Content\Characters\Human\Animations"/>
 	  
 	  <!-- Hunger check -->
-	  <StatusEffect type="always" target="This" disabledeltatime="true" comparison="And">
+	  <StatusEffect type="always" target="This" setvalue="false" disabledeltatime="false" comparison="And">
 		  <Conditional fad_hunger="lt 1"/>
-		  <Affliction identifier="fad_hunger" amount="1" />
+		  <Affliction identifier="fad_hunger" amount="0.1" />
 	  </StatusEffect>
 	  <!-- Thirst check -->
-	  <StatusEffect type="always" target="This" disabledeltatime="true" comparison="And">
+	  <StatusEffect type="always" target="This" setvalue="false" disabledeltatime="false" comparison="And">
 		  <Conditional fad_thirst="lt 1"/>
-		  <Affliction identifier="fad_thirst" amount="1" />
+		  <Affliction identifier="fad_thirst" amount="0.1" />
+	  </StatusEffect>
+	  <!-- Protein Check -->
+	  <StatusEffect type="always" target="This" setvalue="false" disabledeltatime="false" comparison="And">
+		  <Conditional fad_Lprotein="lt 0.005"/>
+		  <Affliction identifier="fad_Lprotein" amount="0.0125" />
 	  </StatusEffect>
 
 	  <damageemitter particle="gib" drawontop="True" particleamount="10" velocitymin="50" velocitymax="300" anglemin="0" anglemax="360" scalemin="0.25" scalemax="0.5" emitinterval="0" particlespersecond="0" highqualitycollisiondetection="False" copyentityangle="False" />
