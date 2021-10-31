@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<infotexts language="Russian" nowhitespace="false" translatedname="Русский">
+	<!-- Item template for copy-paste
+	<entityname.fad_></entityname.fad_>
+	<entitydescription.fad_></entitydescription.fad_>
+	-->
+
+	<!-- Cook job and clothes related stuff -->
+	<skillname.cooking>Кулинария</skillname.cooking>
+	<skilldescription.cooking>Кулинария.</skilldescription.cooking>
+	<jobname.fad_cook>Повар</jobname.fad_cook>
+	<jobdescription.fad_cook>Повара, они готовят. Экипажу любой субмарины нужно чем-то питаться, и именно повара помогут вам решить эту проблему.</jobdescription.fad_cook>
+	<entityname.cookclothes>Форма Повара</entityname.cookclothes>
+	<entitydescription.cookclothes>Чистая, белая, почти стерильная одежда.</entitydescription.cookclothes>
+	<entityname.cookhat>Поварской колпак</entityname.cookhat>
+	<entitydescription.cookhat>Это колпак повара. Если честно, он выглядит нелепо.</entitydescription.cookhat>
+
+	<!-- UI -->
+	<displayname.fad_waterrefill>Бутылка воды (Неполная)</displayname.fad_waterrefill>
+	<displayname.fad_coffeerefill>Кофе (Неполный)</displayname.fad_coffeerefill>
+
+	<!-- Advanced items -->
+	<entityname.fad_compatpill>Таблетка совместимости</entityname.fad_compatpill>
+	<entitydescription.fad_compatpill> Эта таблетка обеспечивает совместимость человеческого организма с непривычной для него пищей. Добавляет +3 к Голоду и +3 к Жажде.</entitydescription.fad_compatpill>
+
+	<!-- Agriculture stuff -->
+	<entityname.fad_coffeebean>Зерно Кофе</entityname.fad_coffeebean>
+	<entitydescription.fad_coffeebean>Зерно Кофе, генетически модифицированное для выживания на Европе.</entitydescription.fad_coffeebean>
+
+	<!-- Placeable objects -->
+	<entityname.fad_smlcookingstation>Кулинарная станция</entityname.fad_smlcookingstation>
+	<entitydescription.fad_smlcookingstation>Устройство для приготовления еды и напитков.</entitydescription.fad_smlcookingstation>
+	<entityname.fad_smlsmlcookingstation>Маленькая кулинарная станция</entityname.fad_smlsmlcookingstation>
+	<entitydescription.fad_smlcookingstation>Компактное устройство для приготовления еды и напитков.</entitydescription.fad_smlcookingstation>
+
+	<!-- Raw food -->
+	<entityname.fad_crawlermeat>Сырое мясо Ползуна</entityname.fad_crawlermeat>
+	<entitydescription.fad_crawlermeat>Скользкий кусочек мяса, который пахнет гнилью. Выглядит не очень съедобно. .</entitydescription.fad_crawlermeat>
+	<entityname.fad_molochmeat>Сырое мясо Молоха</entityname.fad_molochmeat>
+	<entitydescription.fad_molochmeat>Мясо Молоха. Не особо съедобно, но может пригодиться в кулинарии.</entitydescription.fad_molochmeat>
+
+	<!-- Drinks -->
+	<entityname.fad_waterbottle>Бутылка воды</entityname.fad_waterbottle>
+	<entitydescription.fad_waterbottle>Фильтрованная и очищенная вода Европы. Вам может показаться, что она и вправду чистая, но деле это далеко не родниковая вода.</entitydescription.fad_waterbottle>
+	<entityname.fad_coffee>Кофе</entityname.fad_coffee>
+	<entitydescription.fad_coffee>Это великое наследие предков. Вкусно, питательно и очень энергично.</entitydescription.fad_coffee>
+	<entityname.fad_beer>Пиво</entityname.fad_beer>
+	<entitydescription.fad_beer>Пиво с лёгким привкусом метанола. Обычное дело для Европы.</entitydescription.fad_beer>
+	<entityname.fad_saltdrink>Солёный виноградный сок</entityname.fad_saltdrink>
+	<entitydescription.fad_saltdrink>Исключительно солёный, но удивительно вкусный.</entitydescription.fad_saltdrink>
+
+	<!-- Food -->
+	<entityname.fad_rationbar>Питательный батончик</entityname.fad_rationbar>
+	<entitydescription.fad_rationbar>Хотя его съедобность и сомнительна, он может спасти вас от голода.</entitydescription.fad_rationbar>
+	<entityname.fad_hqrationbar>Питательный батончик Коалиции</entityname.fad_hqrationbar>
+	<entitydescription.fad_hqrationbar>Несмотря на то, что они очень похожи на грязь, они удивительно вкусные.</entitydescription.fad_hqrationbar>
+	<entityname.fad_baguette>Багет</entityname.fad_baguette>
+	<entitydescription.fad_baguette>Ужасная копия багета с Земли. На вкус не особо приятно, но лучше, чем просто грязь.</entitydescription.fad_baguette>
+	<entityname.fad_cookie>Печенье</entityname.fad_cookie>
+	<entitydescription.fad_cookie>На вкус почти, как по бабушкиному рецепту.</entitydescription.fad_cookie>
+	<entityname.fad_huskcaviar>Икра из яиц Хаска</entityname.fad_huskcaviar>
+	<entitydescription.fad_huskcaviar>Предположительно, это одно из блюд высшего общества.</entitydescription.fad_huskcaviar>
+	<entityname.fad_curry>Карри</entityname.fad_curry>
+	<entitydescription.fad_curry>К сожалению, в Европе нет продуктов с карри. Поэтому они воссоздаются химическим путем, что делает их немного трудными для пережевывания.</entitydescription.fad_curry>
+	<entityname.fad_mudraptorscramble>Scramble из Раптора</entityname.fad_mudraptorscramble>
+	<entitydescription.fad_mudraptorscramble>Очень вкусно, хоть и похоже на слизь.</entitydescription.fad_mudraptorscramble>
+	<entityname.fad_crawlersteak>Приготовленный стейк из Ползуна</entityname.fad_crawlersteak>
+	<entitydescription.fad_crawlersteak>Это мясо ничем не напоминает свою сырую версию. Приятно пахнет и отлично на вкус.</entitydescription.fad_crawlersteak>
+	<entityname.fad_molochsushi>Суши из Молоха</entityname.fad_molochsushi>
+	<entitydescription.fad_molochsushi>Немного мягкие. Но выглядят аппетитно.</entitydescription.fad_molochsushi>
+</infotexts>
