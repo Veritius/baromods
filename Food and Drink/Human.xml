@@ -5,8 +5,8 @@
   haircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)"
   facialhaircolors="(#ded7cc, 100); (#d2a36f, 100); (#c77d52, 100); (#ac4934, 100); (#d8ba85, 100); (#cd975a, 100); (#a15837, 100); (#6a3b37, 100); (#bba981, 100); (#8b7e6c, 100); (#594349, 100); (#473637, 100); (#7b8478, 100); (#494e55, 100); (#3a3a3c, 100); (#343030, 100)">
   <name firstname="Content/Characters/Human/firstnames_[GENDER].txt" lastname="Content/Characters/Human/lastnames.txt" />
-  <ragdolls folder="default" />
-  <animations folder="default" />
+  <ragdolls folder="Content/Characters/Human/Ragdolls" />
+  <animations folder="Content/Characters/Human/Animations" />
   
 	<!-- Hunger check -->
 	<StatusEffect type="always" target="This" setvalue="false" disabledeltatime="false" comparison="And">
@@ -330,3 +330,4 @@
   </HeadAttachments>
   
 </Character>
+</Override>
