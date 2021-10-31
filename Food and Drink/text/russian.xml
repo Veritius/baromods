@@ -7,21 +7,21 @@
 
 	<!-- Cook job and clothes related stuff -->
 	<skillname.cooking>Кулинария</skillname.cooking>
-	<skilldescription.cooking>Кулинария.</skilldescription.cooking>
+	<skilldescription.cooking>Кулинарный навык.</skilldescription.cooking>
 	<jobname.fad_cook>Повар</jobname.fad_cook>
-	<jobdescription.fad_cook>Повара, они готовят. Экипажу любой субмарины нужно чем-то питаться, и именно повара помогут вам решить эту проблему.</jobdescription.fad_cook>
+	<jobdescription.fad_cook>Повар, он готовит еду. Экипажу любой субмарины нужно чем-то питаться, и именно повар поможет решить эту проблему.</jobdescription.fad_cook>
 	<entityname.cookclothes>Форма Повара</entityname.cookclothes>
 	<entitydescription.cookclothes>Чистая, белая, почти стерильная одежда.</entitydescription.cookclothes>
 	<entityname.cookhat>Поварской колпак</entityname.cookhat>
 	<entitydescription.cookhat>Это колпак повара. Если честно, он выглядит нелепо.</entitydescription.cookhat>
 
 	<!-- UI -->
-	<displayname.fad_waterrefill>Бутылка воды (Неполная)</displayname.fad_waterrefill>
-	<displayname.fad_coffeerefill>Кофе (Неполный)</displayname.fad_coffeerefill>
+	<displayname.fad_waterrefill>Бутылка воды (Пополнить)</displayname.fad_waterrefill>
+	<displayname.fad_coffeerefill>Кофе (Пополнить)</displayname.fad_coffeerefill>
 
 	<!-- Advanced items -->
 	<entityname.fad_compatpill>Таблетка совместимости</entityname.fad_compatpill>
-	<entitydescription.fad_compatpill> Эта таблетка обеспечивает совместимость человеческого организма с непривычной для него пищей. Добавляет +3 к Голоду и +3 к Жажде.</entitydescription.fad_compatpill>
+	<entitydescription.fad_compatpill>Эта таблетка обеспечивает совместимость человеческого организма с непривычной для него пищей. Добавляет +3 к Голоду и +3 к Жажде.</entitydescription.fad_compatpill>
 
 	<!-- Agriculture stuff -->
 	<entityname.fad_coffeebean>Зерно Кофе</entityname.fad_coffeebean>
@@ -30,42 +30,42 @@
 	<!-- Placeable objects -->
 	<entityname.fad_smlcookingstation>Кулинарная станция</entityname.fad_smlcookingstation>
 	<entitydescription.fad_smlcookingstation>Устройство для приготовления еды и напитков.</entitydescription.fad_smlcookingstation>
-	<entityname.fad_smlsmlcookingstation>Маленькая кулинарная станция</entityname.fad_smlsmlcookingstation>
+	<entityname.fad_smlsmlcookingstation>Переносная кулинарная станция</entityname.fad_smlsmlcookingstation>
 	<entitydescription.fad_smlcookingstation>Компактное устройство для приготовления еды и напитков.</entitydescription.fad_smlcookingstation>
 
 	<!-- Raw food -->
 	<entityname.fad_crawlermeat>Сырое мясо Ползуна</entityname.fad_crawlermeat>
-	<entitydescription.fad_crawlermeat>Скользкий кусочек мяса, который пахнет гнилью. Выглядит не очень съедобно. .</entitydescription.fad_crawlermeat>
+	<entitydescription.fad_crawlermeat>Скользкий кусочек мяса, который пахнет гнилью. В настоящее время не выглядит особенно съедобным, но он, безусловно, очень питателен.</entitydescription.fad_crawlermeat>
 	<entityname.fad_molochmeat>Сырое мясо Молоха</entityname.fad_molochmeat>
-	<entitydescription.fad_molochmeat>Мясо Молоха. Не особо съедобно, но может пригодиться в кулинарии.</entitydescription.fad_molochmeat>
+	<entitydescription.fad_molochmeat>Мясо Молоха. Не особо съедобно. Этот жир похож на жир земного кита.</entitydescription.fad_molochmeat>
 
 	<!-- Drinks -->
 	<entityname.fad_waterbottle>Бутылка воды</entityname.fad_waterbottle>
-	<entitydescription.fad_waterbottle>Фильтрованная и очищенная вода Европы. Вам может показаться, что она и вправду чистая, но деле это далеко не родниковая вода.</entitydescription.fad_waterbottle>
+	<entitydescription.fad_waterbottle>Фильтрованная и очищенная вода Европы. Вам может показаться, что она и вправду чистая, но на деле это далеко не родниковая вода.</entitydescription.fad_waterbottle>
 	<entityname.fad_coffee>Кофе</entityname.fad_coffee>
-	<entitydescription.fad_coffee>Это великое наследие предков. Вкусно, питательно и очень энергично.</entitydescription.fad_coffee>
+	<entitydescription.fad_coffee>Это великое наследие предков. Вкусно и питательно. Наполнено энергией.</entitydescription.fad_coffee>
 	<entityname.fad_beer>Пиво</entityname.fad_beer>
-	<entitydescription.fad_beer>Пиво с лёгким привкусом метанола. Обычное дело для Европы.</entitydescription.fad_beer>
+	<entitydescription.fad_beer>Используя этанол и брожение, вы получаете не только альтернативу воде, но и надёжную отдушину от печали.</entitydescription.fad_beer>
 	<entityname.fad_saltdrink>Солёный виноградный сок</entityname.fad_saltdrink>
-	<entitydescription.fad_saltdrink>Исключительно солёный, но удивительно вкусный.</entitydescription.fad_saltdrink>
+	<entitydescription.fad_saltdrink>Исключительно солёный, но удивительно вкусный. Слабо утоляет жажду.</entitydescription.fad_saltdrink>
 
 	<!-- Food -->
 	<entityname.fad_rationbar>Питательный батончик</entityname.fad_rationbar>
-	<entitydescription.fad_rationbar>Хотя его съедобность и сомнительна, он может спасти вас от голода.</entitydescription.fad_rationbar>
+	<entitydescription.fad_rationbar>Твёрдый и питательный. Он состоит в основном из печенья и сахара. Обеспечит вас энергией до конца рабочего дня.</entitydescription.fad_rationbar>
 	<entityname.fad_hqrationbar>Питательный батончик Коалиции</entityname.fad_hqrationbar>
-	<entitydescription.fad_hqrationbar>Несмотря на то, что они очень похожи на грязь, они удивительно вкусные.</entitydescription.fad_hqrationbar>
+	<entitydescription.fad_hqrationbar>Этот питательный батончик изготавливается по специальному рецепту Коалиции. Состоит из очень странного набора тушёных овощей и конфет в форме лакрицы. Судя по составу, сразу становится ясно, что он просто имитирует вкус мяса. В нем очень мало жиров и белков. Но не смотря на это, он всё равно вкусный и способен обеспечить энергией до конца рабочего дня.</entitydescription.fad_hqrationbar>
 	<entityname.fad_baguette>Багет</entityname.fad_baguette>
-	<entitydescription.fad_baguette>Ужасная копия багета с Земли. На вкус не особо приятно, но лучше, чем просто грязь.</entitydescription.fad_baguette>
+	<entitydescription.fad_baguette>Европейская копия земного багета. Рекомендуется не употреблять его через какие-либо отверстия, кроме рта.</entitydescription.fad_baguette>
 	<entityname.fad_cookie>Печенье</entityname.fad_cookie>
-	<entitydescription.fad_cookie>На вкус почти, как по бабушкиному рецепту.</entitydescription.fad_cookie>
-	<entityname.fad_huskcaviar>Икра из яиц Хаска</entityname.fad_huskcaviar>
-	<entitydescription.fad_huskcaviar>Предположительно, это одно из блюд высшего общества.</entitydescription.fad_huskcaviar>
+	<entitydescription.fad_cookie>Ах, оно такое хрупкое и тёплое. Это печенье на вкус, как по рецепту бабушки Раптора. Его сопровождает сладкая и нежная начинка, которая утончает этот прекрасный вкус. Спустя множество исследований и генных модификаций печенье стало настолько сладким, что аж приторным.</entitydescription.fad_cookie>
+	<entityname.fad_huskcaviar>Икра Хаска</entityname.fad_huskcaviar>
+	<entitydescription.fad_huskcaviar>Предположительно, высший класс Европы ест эту склизкую икру, которая была ранее смертоносными яйцами Велоценапса Каликса, обязательно заедая их антибиотиком в качестве гарнира.</entitydescription.fad_huskcaviar>
 	<entityname.fad_curry>Карри</entityname.fad_curry>
-	<entitydescription.fad_curry>К сожалению, в Европе нет продуктов с карри. Поэтому они воссоздаются химическим путем, что делает их немного трудными для пережевывания.</entitydescription.fad_curry>
-	<entityname.fad_mudraptorscramble>Scramble из Раптора</entityname.fad_mudraptorscramble>
-	<entitydescription.fad_mudraptorscramble>Очень вкусно, хоть и похоже на слизь.</entitydescription.fad_mudraptorscramble>
+	<entitydescription.fad_curry>К сожалению, ингредиенты для создания оригинального земного карри почти невозможно получить на Европе. Поэтому в Европейском карри используется специальная паста, сделанная из эластина растений. Это придаёт карри некоторую жевательность. Карри отлично утоляет как голод, так и жажду.</entitydescription.fad_curry>
+	<entityname.fad_mudraptorscramble>Скрэмбл Раптора</entityname.fad_mudraptorscramble>
+	<entitydescription.fad_mudraptorscramble>Сваренным и разбитым это яйцо представляет собой барбекю, с кусочками нежного и мягкого мяса, которые прекрасно распределены в великолепном бульоне. Это блюдо является огромным источником питательных веществ.</entitydescription.fad_mudraptorscramble>
 	<entityname.fad_crawlersteak>Приготовленный стейк из Ползуна</entityname.fad_crawlersteak>
-	<entitydescription.fad_crawlersteak>Это мясо ничем не напоминает свою сырую версию. Приятно пахнет и отлично на вкус.</entitydescription.fad_crawlersteak>
+	<entitydescription.fad_crawlersteak>Это мясо ничем не напоминает свою сырую версию. Оно приятно как на запах, так и на вкус. Да и выглядит аппетитно.</entitydescription.fad_crawlersteak>
 	<entityname.fad_molochsushi>Суши из Молоха</entityname.fad_molochsushi>
-	<entitydescription.fad_molochsushi>Немного мягкие. Но выглядят аппетитно.</entitydescription.fad_molochsushi>
+	<entitydescription.fad_molochsushi>Суши - отличная идея для европейского блюда. Оно было бы абсурдно вкусным, если бы вас от него не тошнило.</entitydescription.fad_molochsushi>
 </infotexts>
