@@ -9,12 +9,10 @@
 		</Price>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="10">
 			<RequiredItem identifier="plastic" />
-                        <RequiredItem identifier="antibiotics" mincondition="0.25"/>
 		</Fabricate>
 		<Fabricate suitablefabricators="cookingstation,medicalfabricator" displayname="fad_waterrefill" requiredtime="8">
 			<RequiredItem identifier="fad_waterbottle" />
-                        <RequiredItem identifier="antibiotics" mincondition="0.25"/>
-                  </Fabricate>
+		</Fabricate>
 		<Deconstruct time="5">
 		<Item identifier="plastic" />
 		</Deconstruct>
@@ -29,32 +27,6 @@
 			</StatusEffect>
 		</Holdable>
 	</Item>
-
-	<Item name="Unfiltered Water" identifier="fad_waterbottleD" category="Misc" maxstacksize="5" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,drink" useinhealthinterface="true" scale="0.8" description="This...is useless, as drinking unfilthered water will give you nausea and likely will will make you vomit twice the ammount of water you ingested, its wise to find an alternative to clean this water" impactsoundtag="impact_soft">
-		<Price baseprice="0" soldeverywhere="false">
-		</Price>
-		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="10">
-			<RequiredItem identifier="plastic" />
-		</Fabricate>
-		<Fabricate suitablefabricators="cookingstation,medicalfabricator" displayname="fad_waterrefill" requiredtime="8">
-		 <RequiredItem identifier="fad_waterbottleD" />
-                </Fabricate>
-		<Deconstruct time="5">
-		<Item identifier="plastic" />
-		</Deconstruct>
-		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="117,4,18,56" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="170,100,56,17" depth="0.6" origin="0.5,0.5" />
-		<Body width="81" height="25" density="20" />
-		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" holdpos="0,-45" handle1="-5,-5" holdangle="90" msg="ItemMsgPickUpSelect">
-			<StatusEffect type="OnUse" target="This" Condition="-25.0" disabledeltatime="true" />
-			<StatusEffect tags="poison" type="OnUse" target="Character">
-				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-				<ReduceAffliction identifier="fad_thirst" amount="20" />
-				<Affliction identifier="nausea" amount="15" />
-			</StatusEffect>
-		</Holdable>
-	</Item>
-
 	<Item name="" identifier="fad_coffee" category="Misc" maxstacksize="2" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,drink" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
 		<Price baseprice="30" soldeverywhere="false">
 			<Price locationtype="outpost" multiplier="1" minavailable="1"/>
@@ -70,7 +42,7 @@
 			<RequiredItem identifier="fad_coffee" />
 			<RequiredItem identifier="fad_coffeebean" />
 			<RequiredItem identifier="fad_coffeebean" />
-    </Fabricate>
+    	</Fabricate>
 		<Deconstruct time="5">
 			<Item identifier="iron" />
 		</Deconstruct>
@@ -97,7 +69,6 @@
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="50" >
 			<RequiredItem identifier="ethanol" />
-			<RequiredItem identifier="fad_waterbottleD" />
 			<RequiredItem identifier="carbon" />
 		</Fabricate>
 		<Deconstruct time="20">
@@ -130,7 +101,7 @@
 		<Fabricate suitablefabricators="cookingstation" requiredtime="40" >
 			<RequiredItem identifier="saltbulb" />
 			<RequiredItem identifier="carbon" />
-			<RequiredItem identifier="fad_waterbottleD" />
+			<RequiredItem identifier="fad_waterbottle" />
 		</Fabricate>
 		<Deconstruct time="45">
 			<Item identifier="sodium" />

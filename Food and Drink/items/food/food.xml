@@ -9,10 +9,9 @@
 			<Price locationtype="military" multiplier="0.7" minavailable="2" />
 			<Price locationtype="research" multiplier="1" sold="false" />
 		</Price>
-		<Fabricate suitablefabricators="cookingstation" requiredtime="30" amount="2">
-                 <RequiredSkill identifier="medical" level="15" />
-			<RequiredItem identifier="fad_carb" />
-			<RequiredItem identifier="fad_fluor" />
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30" amount="6">
+            <RequiredSkill identifier="medical" level="15" />
+			<RequiredItem identifier="fad_flour" />
 		</Fabricate>
 		<Deconstruct time="45">
 			<Item identifier="fad_rationbar" copycondition="true" />
@@ -40,10 +39,11 @@
 			<Price locationtype="military" multiplier="0.5" minavailable="6" />
 			<Price locationtype="research" multiplier="1" sold="false" />
 		</Price>
-		<Fabricate suitablefabricators="cookingstation" requiredtime="30" amount="2">
-                 <RequiredSkill identifier="medical" level="20" />
-			<RequiredItem identifier="fad_carb" />
-			<RequiredItem identifier="fad_carb" />
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30" amount="4">
+            <RequiredSkill identifier="medical" level="20" />
+			<RequiredItem identifier="fad_flour" />
+			<RequiredItem identifier="sodium" />
+			<RequiredItem identifier="elastinplant" />
 			<RequiredItem identifier="alienblood" />
 			<RequiredItem identifier="alienblood" />
 		</Fabricate>
@@ -71,10 +71,9 @@
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="60">
                  <RequiredSkill identifier="medical" level="20" />
-			<RequiredItem identifier="fad_fluor" />
-			<RequiredItem identifier="fad_fluor" />
-			<RequiredItem identifier="fad_carb" />
-			<RequiredItem identifier="fad_carb" />
+			<RequiredItem identifier="fad_flour" />
+			<RequiredItem identifier="fad_flour" />
+			<RequiredItem identifier="sodium" />
 		</Fabricate>
 		<Deconstruct time="1">
 			<Item identifier="fad_baguette" copycondition="true" />
@@ -109,9 +108,8 @@
 			<Price locationtype="research" multiplier="0.9" minavailable="1" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="40" amount="8">
-                 <RequiredSkill identifier="medical" level="20" />
-			<RequiredItem identifier="fad_fluor" />
-			<RequiredItem identifier="fad_carb" />
+            <RequiredSkill identifier="medical" level="20" />
+			<RequiredItem identifier="fad_flour" />
 		</Fabricate>
 		<Deconstruct time="30">
 			<Item identifier="fad_cookie" />
@@ -167,10 +165,9 @@
 			<Price locationtype="city" multiplier="0.8" minavailable="3" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="40" amount="3">
-                 <RequiredSkill identifier="medical" level="20" />
+            <RequiredSkill identifier="medical" level="20" />
 			<RequiredItem identifier="elastinplant" />
-			<RequiredItem identifier="fad_carb" />
-			<RequiredItem identifier="fad_fluor" />
+			<RequiredItem identifier="fad_flour" />
 			<RequiredItem identifier="fad_waterbottle" mincondition="1" />
 		</Fabricate>
 		<Deconstruct time="30">
@@ -258,10 +255,9 @@
 			<Price locationtype="research" multiplier="1" sold="false" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="40" amount="12">
-                 <RequiredSkill identifier="medical" level="35" />
+            <RequiredSkill identifier="medical" level="35" />
 			<RequiredItem identifier="fad_molochmeat" />
-			<RequiredItem identifier="fad_fluor" />
-			<RequiredItem identifier="fad_carb" />
+			<RequiredItem identifier="elastinplant" />
 			<RequiredItem identifier="sodium" />
 		</Fabricate>
 		<Deconstruct time="1">
@@ -283,7 +279,7 @@
 			</StatusEffect>
 		</Holdable>
 	</Item>
-	<Item name="Generic Stew" identifier="fad_stew" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.8" description="made of scrambled scrapped fat of various different local creatures, its delicious and nutricious, its quite rare around here too, once its avaliable only for fresh cut meat before fried, its worth a penny in any market that is not the military, and very nutricious too" impactsoundtag="impact_soft">
+	<Item name="" identifier="fad_stew" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.8" description="made of scrambled scrapped fat of various different local creatures, its delicious and nutricious, its quite rare around here too, once its avaliable only for fresh cut meat before fried, its worth a penny in any market that is not the military, and very nutricious too" impactsoundtag="impact_soft">
 		<Price baseprice="200" soldeverywhere="false">
 			<Price locationtype="outpost" multiplier="1.85" sold="false"/>
 			<Price locationtype="city" multiplier="1.3" sold="false" />
@@ -291,7 +287,7 @@
 			<Price locationtype="research" multiplier="1.5" sold="false" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="80" amount="2">
-                 <RequiredSkill identifier="medical" level="30" />
+            <RequiredSkill identifier="medical" level="30" />
 			<RequiredItem identifier="swimbladder" />
 			<RequiredItem identifier="alienblood" />
 			<RequiredItem identifier="alienblood" />
@@ -317,72 +313,7 @@
 			</StatusEffect>
 		</Holdable>
 	</Item>
-	<Item name="Spinal Slices" identifier="fad_spinemeatD" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.7" description="Spineling meat is very tender,soft and satisfying to chew, not so nutricious as other meats, but certainly very tasty, if it wasnt for the pain in your mouth for chawing it wrong, right into a sharp spinal scrap, it takes some skil to properly remove all of the spinal left from this meat and season it right, each bite risks to hurt you a tid bit" impactsoundtag="impact_soft">
-		<Price baseprice="80" soldeverywhere="false">
-			<Price locationtype="outpost" multiplier="1" sold="false"/>
-			<Price locationtype="city" multiplier="1.3" sold="false" />
-			<Price locationtype="military" multiplier="0.35" sold="false" />
-			<Price locationtype="research" multiplier="1.25" sold="false" />
-		</Price>
-		<Fabricate suitablefabricators="cookingstation" requiredtime="40" amount="2">
-                 <RequiredSkill identifier="medical" level="25" />
-			<RequiredItem identifier="fad_spinemeat" />
-			<RequiredItem identifier="alienblood" />
-			<Requireditem identifier="sodium" />
-		</Fabricate>
-		<Deconstruct time="1">
-			<Item identifier="fad_spinemeatD" copycondition="true" />
-		</Deconstruct>
-		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="546,143,53,37" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="234,83,62,31" depth="0.6" origin="0.5,0.5" />
-		<Body width="30" height="24" density="20" />
-		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" holdpos="38,-30" handle1="-7,-8" holdangle="0" msg="ItemMsgPickUpSelect">
-			<StatusEffect type="OnUse" target="This" Condition="-35.0" disabledeltatime="true" />
-			<StatusEffect tags="poison" type="OnUse" target="Character" targetlimb="Head">
-				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-				<ReduceAffliction identifier="fad_hunger" amount="15" />
-				<ReduceAffliction identifier="fad_thirst" amount="8" />
-				<ReduceAffliction identifier="fad_lprotein" amount="7" />
-                                <Affliction identifier="lacerations" amount="12.5" probability="0.35" />
-			</StatusEffect>
-			<StatusEffect type="OnBroken" target="This">
-				<Remove />
-			</StatusEffect>
-		</Holdable>
-	</Item>
-	<Item name="Seasoned Spinal Slices" identifier="fad_spinemeatS" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.7" description="This meat is outstanding, its soft and tender, gracious to chew and swallow, this time without the risk of biting you back with any spinal left over, its worth quite a penny in the urban market too" impactsoundtag="impact_soft">
-		<Price baseprice="225" soldeverywhere="false">
-			<Price locationtype="outpost" multiplier="1.5" sold="false"/>
-			<Price locationtype="city" multiplier="1.7" minavaliable="0" />
-			<Price locationtype="military" multiplier="0.35" sold="false" />
-			<Price locationtype="research" multiplier="0.7" sold="false" />
-		</Price>
-		<Fabricate suitablefabricators="cookingstation" requiredtime="125" amount="2">
-                 <RequiredSkill identifier="medical" level="45" />
-			<RequiredItem identifier="fad_spinemeatD" />
-			<RequiredItem identifier="phosphorus" />
-			<Requireditem identifier="fad_carb" />
-		</Fabricate>
-		<Deconstruct time="1">
-			<Item identifier="fad_spinemeatS" copycondition="true" />
-		</Deconstruct>
-		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="547,94,47,33" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="299,86,62,27" depth="0.6" origin="0.5,0.5" />
-		<Body width="30" height="24" density="20" />
-		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" holdpos="38,-30" handle1="-8,-5" holdangle="0" msg="ItemMsgPickUpSelect">
-			<StatusEffect type="OnUse" target="This" Condition="-35.0" disabledeltatime="true" />
-			<StatusEffect tags="poison" type="OnUse" target="Character" >
-				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-				<ReduceAffliction identifier="fad_hunger" amount="20" />
-				<ReduceAffliction identifier="fad_thirst" amount="5" />
-				<ReduceAffliction identifier="fad_lprotein" amount="9" />
-			</StatusEffect>
-			<StatusEffect type="OnBroken" target="This">
-				<Remove />
-			</StatusEffect>
-		</Holdable>
-	</Item>
-	<Item name="Thresher stick" identifier="fad_thresherS" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.6" description="This meat is not only tastefull but very nutricious, its a bit hard to chew because of its firm tissues and body muscles, its fat is stiff and rigid too, but it truly tastes like barbeque once it make it to your throat" impactsoundtag="impact_heavy">
+	<Item name="" identifier="fad_threshershish" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,medical,food" useinhealthinterface="true" scale="0.6" description="This meat is not only tastefull but very nutricious, its a bit hard to chew because of its firm tissues and body muscles, its fat is stiff and rigid too, but it truly tastes like barbeque once it make it to your throat" impactsoundtag="impact_heavy">
 		<Price baseprice="225" soldeverywhere="false">
 			<Price locationtype="outpost" multiplier="1.5" sold="false"/>
 			<Price locationtype="city" multiplier="1.7" minavaliable="0" />
@@ -390,13 +321,13 @@
 			<Price locationtype="research" multiplier="0.7" sold="false" />
 		</Price>
 		<Fabricate suitablefabricators="cookingstation" requiredtime="40">
-                 <RequiredSkill identifier="medical" level="30" />
+            <RequiredSkill identifier="medical" level="30" />
 			<RequiredItem identifier="fad_threshermeat" />
 			<RequiredItem identifier="phosphorus" />
 			<Requireditem identifier="sodium" />
 		</Fabricate>
 		<Deconstruct time="1">
-			<Item identifier="fad_thresherS" copycondition="true" />
+			<Item identifier="carbon" copycondition="false" />
 		</Deconstruct>
 		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="765,80,35,87" origin="0.5,0.5" />
 		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="257,130,103,24" depth="0.6" origin="0.5,0.5" />
