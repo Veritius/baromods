@@ -1,47 +1,141 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Items>
-  <Item name="" identifier="fad_crawlermeat" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
-		<Price baseprice="160" soldeverywhere="false">
-			<Price locationtype="city" multiplier="1" minavailable="1" />
+  	<Item name="" identifier="fad_crawlermeat" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="1.7" impactsoundtag="impact_light">
+		<Price baseprice="100" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="0.7" sold="false"/>
+			<Price locationtype="city" multiplier="1.25" sold="false" />
+			<Price locationtype="military" multiplier="0.7" sold="false" />
+			<Price locationtype="research" multiplier="1.25" sold="false" />
 		</Price>
 		<Deconstruct time="60">
 			<Item identifier="carbon" />
+			<Item identifier="carbon" />
+			<Item identifier="aleinblood" />
 		</Deconstruct>
-		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="704,0,64,64" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="3,78,32,14" depth="0.6" origin="0.5,0.5" />
+		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="704,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="3,78,32,14" depth="0.6" origin="0.5,0.5" />
 		<Body width="129" height="30" density="20" />
-		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand+LeftHand" holdpos="-5,-35" handle1="5,0" handle2="5,0" holdangle="90" msg="ItemMsgPickUpSelect">
 			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
 			<StatusEffect tags="poison" type="OnUse" target="Character">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-				<ReduceAffliction identifier="fad_hunger" amount="5" />
-        <Affliction identifier="nausea" amount="15" />
+				<ReduceAffliction identifier="fad_hunger" amount="85" />
+				<ReduceAffliction identifier="fad_lprotein" amount="40" />
+                                <Affliction identifier="nausea" amount="32" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This">
 				<Remove />
 			</StatusEffect>
-		</MeleeWeapon>
+		</Holdable>
 	</Item>
-	<Item name="" identifier="fad_molochmeat" category="Misc" maxstacksize="6" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
-		<Price baseprice="160" soldeverywhere="false">
-			<Price locationtype="city" multiplier="1" minavailable="1" />
+	<Item name="" identifier="fad_molochmeat" category="Misc" maxstacksize="3" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="1.1" impactsoundtag="impact_light">
+		<Price baseprice="350" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1.3" sold="false"/>
+			<Price locationtype="city" multiplier="1.5" sold="false" />
+			<Price locationtype="military" multiplier="2" sold="false" />
+			<Price locationtype="research" multiplier="1.25" sold="false" />
 		</Price>
 		<Deconstruct time="60">
 			<Item identifier="carbon" />
+			<Item identifier="carbon" />
+			<Item identifier="carbon" />
+			<Item identifier="aleinblood" />
+			<Item identifier="aleinblood" />
 		</Deconstruct>
-		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="960,0,64,64" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food And Drink/Items/food/spritesheet.png" sourcerect="44,104,83,22" depth="0.6" origin="0.5,0.5" />
+		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="960,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="44,104,83,22" depth="0.6" origin="0.5,0.5" />
 		<Body width="129" height="30" density="20" />
-		<MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="220" reload="1.0" msg="ItemMsgPickUpSelect">
+		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand+LeftHand" holdpos="-5,-35" handle1="5,0" handle2="5,0" holdangle="90" msg="ItemMsgPickUpSelect">
 			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
 			<StatusEffect tags="poison" type="OnUse" target="Character">
 				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
-				<ReduceAffliction identifier="fad_hunger" amount="5" />
-        <Affliction identifier="nausea" amount="10" />
+				<ReduceAffliction identifier="fad_hunger" amount="92" />
+				<ReduceAffliction identifier="fad_lprotein" amount="45" />
+                                <Affliction identifier="nausea" amount="28" />
 			</StatusEffect>
 			<StatusEffect type="OnBroken" target="This">
 				<Remove />
 			</StatusEffect>
-		</MeleeWeapon>
+		</Holdable>
+	</Item>
+  	<Item name="" identifier="fad_threshermeat" category="Misc" maxstacksize="4" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="1.3" impactsoundtag="impact_light">
+		<Price baseprice="200" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1.3" sold="false"/>
+			<Price locationtype="city" multiplier="2" sold="false" />
+			<Price locationtype="military" multiplier="1.5" sold="false" />
+			<Price locationtype="research" multiplier="1.25" sold="false" />
+		</Price>
+		<Deconstruct time="60">
+			<Item identifier="carbon" />
+			<Item identifier="carbon" />
+			<Item identifier="aleinblood" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="712,86,31,50" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="203,122,50,31" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand+LeftHand" holdpos="-5,-35" handle1="5,0" handle2="5,0" holdangle="90" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="89" />
+				<ReduceAffliction identifier="fad_lprotein" amount="50" />
+                                <Affliction identifier="nausea" amount="25" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</Holdable>
+	</Item>
+	<Item name="" identifier="fad_spinemeat" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.9" impactsoundtag="impact_light">
+		<Price baseprice="125" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="0.7" sold="false"/>
+			<Price locationtype="city" multiplier="1" sold="false" />
+			<Price locationtype="military" multiplier="0.5" sold="false" />
+			<Price locationtype="research" multiplier="1.5" sold="false" />
+		</Price>
+		<Deconstruct time="60">
+			<Item identifier="carbon" />
+			<Item identifier="aleinblood" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="626,78,33,50" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="131,117,68,34" depth="0.6" origin="0.5,0.5" />
+		<Body width="129" height="30" density="20" />
+		<Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand+LeftHand" holdpos="-5,-35" handle1="5,0" handle2="5,0" holdangle="90" msg="ItemMsgPickUpSelect">
+			<StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
+			<StatusEffect tags="poison" type="OnUse" target="Character" targetlimb="Head">
+				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
+				<ReduceAffliction identifier="fad_hunger" amount="68" />
+				<ReduceAffliction identifier="fad_lprotein" amount="35" />
+                <Affliction identifier="nausea" amount="25" />
+                <Affliction identifier="lacerations" amount="32" />
+			</StatusEffect>
+			<StatusEffect type="OnBroken" target="This">
+				<Remove />
+			</StatusEffect>
+		</Holdable>
+	</Item>
+	<Item name="" identifier="fad_flour" category="Misc" maxstacksize="8" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem" useinhealthinterface="true" scale="0.7" impactsoundtag="impact_light">
+		<Price baseprice="150" soldeverywhere="false">
+			<Price locationtype="outpost" multiplier="1" sold="false"/>
+			<Price locationtype="city" multiplier="1.25" minavailable="0" />
+			<Price locationtype="military" multiplier="0.8" sold="false" />
+			<Price locationtype="research" multiplier="0.7" minavailable="6" />
+		</Price>
+		<Fabricate suitablefabricators="cookingstation" requiredtime="30">
+			<RequiredItem identifier="magnesium" mincondition="0.5"/>
+			<RequiredItem identifier="sodium" />
+			<RequiredItem identifier="calcium" />
+			<RequiredItem identifier="phosphorus" />
+			<RequiredItem identifier="potassium" mincondition="0.5"/>
+		</Fabricate>
+		<Deconstruct time="45">
+			<RequiredItem identifier="sodium" />
+			<RequiredItem identifier="calcium" />
+			<RequiredItem identifier="phosphorus" />
+		</Deconstruct>
+		<InventoryIcon texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="45,131,27,22" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/Items/food/spritesheet.png" sourcerect="45,131,27,22" depth="0.6" origin="0.5,0.5" />
+		<Body width="30" height="30" density="20" />
+   		<Holdable canBeCombined="false" slots="Any,RightHand,LeftHand" handle1="0,0" msg="ItemMsgPickUpSelect" />
 	</Item>
 </Items>

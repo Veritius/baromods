@@ -37,10 +37,12 @@
         <Item identifier="hydroxyapatite" />
         <Item identifier="fad_molochmeat" />
         <Item identifier="fad_molochmeat" />
+        <Item identifier="fad_molochmeat" />
         <Item identifier="brockite" />
     </Inventory>
-    <Inventory slots="Any, Any, Any" accessiblewhenalive="False" commonness="1">
+    <Inventory slots="Any, Any, Any, Any" accessiblewhenalive="False" commonness="1">
         <Item identifier="hydroxyapatite" />
+        <Item identifier="fad_molochmeat" />
         <Item identifier="fad_molochmeat" />
         <Item identifier="shellshield" />
         <Item identifier="brockite" />

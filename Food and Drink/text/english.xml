@@ -35,9 +35,15 @@
 
 	<!-- Raw food -->
 	<entityname.fad_crawlermeat>Raw Crawler Steak</entityname.fad_crawlermeat>
-	<entitydescription.fad_crawlermeat>Slimy and smells like rotted meat. Doesn't look particularly edible.</entitydescription.fad_crawlermeat>
+	<entitydescription.fad_crawlermeat>Slimy and smells horrible. Doesn't look particularly edible, but could be made into something far more tasty.</entitydescription.fad_crawlermeat>
 	<entityname.fad_molochmeat>Raw Moloch Meat</entityname.fad_molochmeat>
-	<entitydescription.fad_molochmeat>Meat harvested from a Moloch. Shouldn't be eaten raw, but might be useful in cooking.</entitydescription.fad_molochmeat>
+	<entitydescription.fad_molochmeat>Meat harvested from a Moloch. Doesn't look particularly edible, but could be made into something far more tasty.</entitydescription.fad_molochmeat>
+	<entityname.fad_threshermeat>Raw Thresher Meat</entityname.fad_threshermeat>
+	<entitydescription.fad_threshermeat>Tough, raw meat from a Thresher. Doesn't look particularly edible, but could be made into something far more tasty.</entitydescription.fad_threshermeat>
+	<entityname.fad_spinemeat>Raw Spineling Meat</entityname.fad_spinemeat>
+	<entitydescription.fad_spinemeat>Prickly, poisonous raw meat from a Spineling. Doesn't look particularly edible, but could be made into something far more tasty.</entitydescription.fad_spinemeat>
+	<entityname.fad_flour>Flour</entityname.fad_flour>
+	<entitydescription.fad_flour>Not actually real flour, but the results are close enough. May be slightly carcinogenic.</entitydescription.fad_flour>
 
 	<!-- Drinks -->
 	<entityname.fad_waterbottle>Water Bottle</entityname.fad_waterbottle>
@@ -45,27 +51,31 @@
 	<entityname.fad_coffee>Coffee</entityname.fad_coffee>
 	<entitydescription.fad_coffee>A caffeine-filled drink with a legacy dating back centuries.</entitydescription.fad_coffee>
 	<entityname.fad_beer>Beer</entityname.fad_beer>
-	<entitydescription.fad_beer>A beer, with some methanol for taste in the classic Europan style.</entitydescription.fad_beer>
+	<entitydescription.fad_beer>An alcoholic beverage that definitely isn't crawler urine, we promise.</entitydescription.fad_beer>
 	<entityname.fad_saltdrink>Saltvine Juice</entityname.fad_saltdrink>
-	<entitydescription.fad_saltdrink>Exceptionally salty, but remarkably delicious.</entitydescription.fad_saltdrink>
+	<entitydescription.fad_saltdrink>Exceptionally salty. It'd be refreshing, if the taste didn't make you feel like you just got punched in the face.</entitydescription.fad_saltdrink>
 
 	<!-- Food -->
 	<entityname.fad_rationbar>Ration Bar</entityname.fad_rationbar>
-	<entitydescription.fad_rationbar>Though its edibility is debatable, ration bars will keep you alive.</entitydescription.fad_rationbar>
+	<entitydescription.fad_rationbar>A plant-based survival ration bar that can last years. It is also so incredibly hard it can be used as structural material.</entitydescription.fad_rationbar>
 	<entityname.fad_hqrationbar>Coalition Standard Ration Bar</entityname.fad_hqrationbar>
-	<entitydescription.fad_hqrationbar>Despite looking significantly like dirt, these are surprisingly tasty.</entitydescription.fad_hqrationbar>
+	<entitydescription.fad_hqrationbar>A plant-based ration bar that can last years. This version is significantly less hard than others, and doesn't taste like chalk.</entitydescription.fad_hqrationbar>
 	<entityname.fad_baguette>Baguette</entityname.fad_baguette>
-	<entitydescription.fad_baguette>A poor Europan reproduction of an Earth baguette. Should not be consumed through any orifice other than the mouth.</entitydescription.fad_baguette>
+	<entitydescription.fad_baguette>An Europan reproduction of an Earth baguette. Do not consume through any orifice other than the mouth.</entitydescription.fad_baguette>
 	<entityname.fad_cookie>Cookie</entityname.fad_cookie>
 	<entitydescription.fad_cookie>Just like Grandma Mudraptor used to make.</entitydescription.fad_cookie>
 	<entityname.fad_huskcaviar>Husk Egg Caviar</entityname.fad_huskcaviar>
-	<entitydescription.fad_huskcaviar>Supposedly the high class of Europa eat these slimy platters of previously lethal husk eggs.</entitydescription.fad_huskcaviar>
+	<entitydescription.fad_huskcaviar>Supposedly the high class of Europa eat these slimy platters of mostly sterilised husk eggs.</entitydescription.fad_huskcaviar>
 	<entityname.fad_curry>Curry</entityname.fad_curry>
-	<entitydescription.fad_curry>Unfortunately, the ingredients to create curry don't grow well on Europa, so instead this is made from elastin plants, which gives it a certain chewy texture.</entitydescription.fad_curry>
+	<entitydescription.fad_curry>A spicy dish that is supposed to be a reproduction of an Earth food, has the consistency of mud.</entitydescription.fad_curry>
 	<entityname.fad_mudraptorscramble>Mudraptor Scramble</entityname.fad_mudraptorscramble>
-	<entitydescription.fad_mudraptorscramble>Surprisingly tasty, if a little slimy.</entitydescription.fad_mudraptorscramble>
+	<entitydescription.fad_mudraptorscramble>Scrambled mudraptor eggs. The less of those things there are, the better.</entitydescription.fad_mudraptorscramble>
 	<entityname.fad_crawlersteak>Cooked Crawler Steak</entityname.fad_crawlersteak>
 	<entitydescription.fad_crawlersteak>This meat resembles nothing to what it previously did - it smells quite nice and looks delicious.</entitydescription.fad_crawlersteak>
 	<entityname.fad_molochsushi>Moloch Sushi</entityname.fad_molochsushi>
-	<entitydescription.fad_molochsushi>Slightly squishy, but looks like a good snack.</entitydescription.fad_molochsushi>
+	<entitydescription.fad_molochsushi>A remarkably edible dish of moloch meat wrapped in plant fibers.</entitydescription.fad_molochsushi>
+	<entityname.fad_stew>Stew</entityname.fad_stew>
+	<entitydescription.fad_stew>A thick, rich stew made from various alien parts.</entitydescription.fad_stew>
+	<entityname.fad_threshershish>Thresher Shishkebab</entityname.fad_threshershish>
+	<entitydescription.fad_threshershish>A shishkebab made from Thresher meat and various fruits.</entitydescription.fad_threshershish>
 </infotexts>

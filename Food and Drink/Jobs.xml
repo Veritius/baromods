@@ -20,7 +20,7 @@
 	  <Item identifier="baguette" equip="false" showpreview="true" />
 	  <Item identifier="waterbottle" equip="false" showpreview="true" />
 	  <PreviewSprites dims="120,109">
-        <sprite texture="Mods/Food and Drink/items/clothes/OutfitIcons.png" sourcerect="0,0,128,128" offset="0,0" />
+        <sprite texture="Mods/Dont Starve/items/clothes/OutfitIcons.png" sourcerect="0,0,128,128" offset="0,0" />
       </PreviewSprites>
     </ItemSet>
     <PortraitClothing>

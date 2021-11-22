@@ -133,7 +133,7 @@
       </StatusEffect>
     </Repairable>
 
-    <ItemContainer capacity="3" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="" allowuioverlap="true"/>
+    <ItemContainer capacity="5" canbeselected="true" hideitems="true" slotsperrow="5" uilabel="" allowuioverlap="true"/>
     <ItemContainer capacity="1" canbeselected="true" hideitems="true" slotsperrow="1" uilabel="" allowuioverlap="true"/>
   </Item>
 </Items>

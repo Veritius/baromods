@@ -1,30 +1,128 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Afflictions>
-	<Affliction name="Hunger" identifier="fad_hunger" description="How hungry the patient is. Lower is better." type="poison" causeofdeathdescription="Died from an affliction that should never have affected their vitality lmao (Hunger)" selfcauseofdeathdescription="You died to an affliction that doesn't reduce your vitality. That's... unusual." limbspecific="false" indicatorlimb="Torso" showiconthreshold="30" minstrength="0" maxstrength="400">
-		<Effect minstrength="0" maxstrength="70" strengthchange="0.01" />
-		<Effect minstrength="70" maxstrength="200" strengthchange="0.02">
-			<StatusEffect target="Character" setvalue="true">
-				<Affliction identifier="fad_starvation" amount="1.2" />
+	<Affliction name="Hunger" identifier="fad_hunger" description="You are starting to get hungry, if you are not fed, you will experience organ failure due to lack of nutrients" type="poison" causeofdeathdescription="Died from an affliction that should never have affected their vitality lmao (Hunger)" selfcauseofdeathdescription="You died to an affliction that doesn't reduce your vitality. That's... unusual." limbspecific="false" indicatorlimb="Torso" showiconthreshold="35" minstrength="0" maxstrength="100">
+		<Effect minstrength="0" maxstrength="25" strengthchange="0.05" >
+		 <StatusEffect target="Character" setvalue="false">
+	           <Affliction identifier="fad_starvation" amount="-0.05" />
+		      </StatusEffect>
+		       </Effect>
+		<Effect minstrength="25" maxstrength="50" strengthchange="0.1" >
+		 <StatusEffect target="Character" setvalue="false">
+	           <Affliction identifier="fad_starvation" amount="-0.025" />
+		      </StatusEffect>
+		       </Effect>
+		<Effect minstrength="50" maxstrength="60" strengthchange="0.125">
+		 <StatusEffect target="Character" setvalue="false">
+	           <Affliction identifier="fad_starvation" amount="0.025" />
+		      </StatusEffect>
+		       </Effect>
+		<Effect minstrength="60" maxstrength="80" strengthchange="0.125">
+		  <StatusEffect target="Character" setvalue="false">
+	            <Affliction identifier="fad_starvation" amount="0.035" />
+		      </StatusEffect>
+		     </Effect>
+		<Effect minstrength="80" maxstrength="100" strengthchange="0.15">
+		  <StatusEffect target="Character" setvalue="false">
+		   <Affliction identifier="fad_starvation" amount="0.065" />
+		    </StatusEffect>
+		    </Effect>
+		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="752,1,130,130" color="188,101,43,255" origin="0,0" />
+	</Affliction>
+	<Affliction name="Starvation" identifier="fad_starvation" description="You are starving, your body is not extracting nutrients from your empty fat, and will start to use your body fluids to sustain your organs" type="poison" causeofdeathdescription="Died of starvation." selfcauseofdeathdescription="You died of starvation." limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" minstrength="0" maxstrength="50">
+		<Effect minstrength="5" maxstrength="15" >
+		<StatusEffect target="Character">
+		<Affliction identifier="organdamage" amount="0.025" />
+       	      </StatusEffect>
+             </Effect> 
+		<Effect minstrength="15" maxstrength="28" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.11" />
+		<Affliction identifier="organdamage" amount="0.05" />
+       	      </StatusEffect>
+             </Effect> 
+		<Effect minstrength="28" maxstrength="35" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.11" />
+		<Affliction identifier="organdamage" amount="0.085" />
+       	      </StatusEffect>
+             </Effect> 
+		<Effect minstrength="35" maxstrength="50" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.115" />
+		<Affliction identifier="organdamage" amount="0.1" />
+       	      </StatusEffect>
+             </Effect> 
+		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="194,1,130,130" color="84,73,63,255" origin="0,0" />
+	</Affliction>
+	<Affliction name="Thirst" identifier="fad_thirst" description="You are starting to get thirsty, if you dont drink, you  will experience dehydratation that will lead to failure whitin producing and renovating bloodcells" type="poison" causeofdeathdescription="Died from an affliction that should never have affected their vitality lmao (Thirst)" selfcauseofdeathdescription="You died to an affliction that doesn't reduce your vitality. That's... unusual." limbspecific="false" indicatorlimb="Head" showiconthreshold="35" minstrength="0" maxstrength="100">
+		<Effect minstrength="0" maxstrength="25" strengthchange="0.065" >
+			<StatusEffect target="Character" setvalue="false">
+			 <Affliction identifier="fad_dehydration" amount="-0.05" />
 			</StatusEffect>
 		</Effect>
-		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="0,0,128,128" color="0,0,0,255" origin="0,0" />
-	</Affliction>
-	<Affliction name="Starvation" identifier="fad_starvation" description="The patient is starving." type="poison" causeofdeathdescription="Died of starvation." selfcauseofdeathdescription="You died of starvation." limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" minstrength="5" maxstrength="200">
-		<Effect minstrength="15" maxstrength="200" strengthchange="-1" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="70" />
-		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="0,0,128,128" color="139,60,42,255" origin="0,0" />
-	</Affliction>
-	<Affliction name="Thirst" identifier="fad_thirst" description="How thirsty the patient is. Lower is better." type="poison" causeofdeathdescription="Died from an affliction that should never have affected their vitality lmao (Thirst)" selfcauseofdeathdescription="You died to an affliction that doesn't reduce your vitality. That's... unusual." limbspecific="false" indicatorlimb="Head" showiconthreshold="30" minstrength="0" maxstrength="100">
-		<Effect minstrength="0" maxstrength="60" strengthchange="0.02" />
-		<Effect minstrength="60" maxstrength="100" strengthchange="0.03">
-			<StatusEffect target="Character" setvalue="true">
-				<Affliction identifier="fad_dehydration" amount="1.3" />
+		<Effect minstrength="25" maxstrength="50" strengthchange="0.1" >
+			<StatusEffect target="Character" setvalue="false">
+			 <Affliction identifier="fad_dehydration" amount="-0.025" />
 			</StatusEffect>
 		</Effect>
-		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="0,0,128,128" color="0,0,0,255" origin="0,0" />
+		<Effect minstrength="50" maxstrength="60" strengthchange="0.125">
+			<StatusEffect target="Character" setvalue="false">
+			 <Affliction identifier="fad_dehydration" amount="0.025" />
+			</StatusEffect>
+		</Effect>
+		<Effect minstrength="60" maxstrength="80" strengthchange="0.135">
+			<StatusEffect target="Character" setvalue="false">
+			 <Affliction identifier="fad_dehydration" amount="0.035" />
+			</StatusEffect>
+		</Effect>
+		<Effect minstrength="80" maxstrength="100" strengthchange="0.15">
+			<StatusEffect target="Character" setvalue="false">
+		         <Affliction identifier="fad_dehydration" amount="0.065" />
+			</StatusEffect>
+		</Effect>
+		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="482,0,129,130" color="58,93,99,255" origin="0,0" />
 	</Affliction>
-	<Affliction name="Dehydration" identifier="fad_dehydration" description="The patient is severely dehydrated." type="poison" causeofdeathdescription="Died of dehydration." selfcauseofdeathdescription="You died of dehydration." limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" minstrength="5" maxstrength="200">
-		<Effect minstrength="20" maxstrength="200" strengthchange="-1" multiplybymaxvitality="true" minvitalitydecrease="0" maxvitalitydecrease="2" />
-		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="0,0,128,128" color="139,60,42,255" origin="0,0" />
+	<Affliction name="Dehydration" identifier="fad_dehydration" description="Your body has not consumed water, its running low on the blank cell H20 recource to produce and sustain your blood cells, and you are soon to run dry in your veins if you do not drink." type="poison" causeofdeathdescription="Died of dehydration." selfcauseofdeathdescription="You died of dehydration." limbspecific="false" indicatorlimb="Torso" showiconthreshold="1" minstrength="0" maxstrength="50">
+		<Effect minstrength="5" maxstrength="15" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.12" />
+       	      </StatusEffect>
+             </Effect>     
+		<Effect minstrength="15" maxstrength="28" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.125" />
+       	      </StatusEffect>
+             </Effect>  
+		<Effect minstrength="28" maxstrength="35" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.15" />
+		<Affliction identifier="oxygenlow" amount="5" />
+       	      </StatusEffect>
+             </Effect>       
+		<Effect minstrength="35" maxstrength="50" >
+		<StatusEffect target="Character">
+		<Affliction identifier="bloodloss" amount="0.2" />
+		<Affliction identifier="oxygenlow" amount="10" />
+       	      </StatusEffect>
+             </Effect>  
+		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="885,0,129,130" color="65,38,84,255" origin="0,0" />
+	</Affliction>
+	<Affliction name="Protein Mineral Deficiency" identifier="fad_lprotein" description="You have not been eating amino acids and sucrose, there for you are lacking essential Minerals,Fiber Protein and Vitamins to sustain your vitality and keep the optimal transport of oxygen to your blood cells" type="poison" causeofdeathdescription="Died of veing vegan, Of course." selfcauseofdeathdescription="You are not supposed to die by this alone. well weird" limbspecific="false" indicatorlimb="Torso" showiconthreshold="25" minstrength="0" maxstrength="50">
+		<Effect minstrength="0" maxstrength="15" />
+		<Effect minstrength="15" maxstrength="25" />
+		<Effect minstrength="25" maxstrength="35" multiplybymaxvitality="false" minvitalitydecrease="0" maxvitalitydecrease="25" >
+                <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.7">
+       	      </StatusEffect>
+             </Effect> 
+		<Effect minstrength="35" maxstrength="42" multiplybymaxvitality="false" minvitalitydecrease="25" maxvitalitydecrease="50" >
+                <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.5">
+       	      </StatusEffect>
+             </Effect> 
+		<Effect minstrength="42" maxstrength="50" multiplybymaxvitality="false" minvitalitydecrease="50" maxvitalitydecrease="75" >
+                <StatusEffect target="Character" setvalue="true" SpeedMultiplier="0.38">
+       	      </StatusEffect>
+             </Effect> 
+		<icon texture="Mods/Food and Drink/MainIconAtlas.png" sourcerect="335,0,129,130" color="119,63,40,255" origin="0,0" />
 	</Affliction>
 	<Override>
 		<Affliction
@@ -40,11 +138,11 @@
 	    karmachangeonapplied="-0.1"
 	    damageoverlayalpha="1">
 
-	    <Effect minstrength="0" maxstrength="100" strengthchange="-1.0">
-	      <StatusEffect target="Character" SpeedMultiplier="0.6" setvalue="true"/>
+	    <Effect minstrength="0" maxstrength="100" strengthchange="-0.35">
+	      <StatusEffect target="Character" SpeedMultiplier="0.5" setvalue="true"/>
 	    </Effect>
 
-	    <PeriodicEffect mininterval="12" maxinterval="16">
+	    <PeriodicEffect mininterval="7" maxinterval="18">
 	      <StatusEffect target="Character" SpeedMultiplier="0.0" setvalue="true" duration="1.7" />
 	      <StatusEffect target="Character" comparison="and">
 	        <Conditional ishuman="true" />
@@ -61,9 +159,10 @@
 	        <Sound file="Content/Sounds/HUMAN_chokeFemale3.ogg" />
 	      </StatusEffect>
 	      <StatusEffect target="Character">
-	        <Affliction identifier="stun" strength="0.1"/>
-	        <Affliction identifier="organdamage" strength="0.5"/>
-					<Affliction identifier="fad_hunger" strength="2" />
+	        <Affliction identifier="stun" strength="0.4"/>
+	        <Affliction identifier="organdamage" strength="1.5"/>
+		<Affliction identifier="fad_hunger" strength="1.25" />
+		<Affliction identifier="fad_thirst" strength="5" />
 	      </StatusEffect>
 	      <StatusEffect target="Character" targetlimbs="Head" duration="1">
 	        <ParticleEmitter particle="vomitsplash" copyentityangle="true" anglemin="-10" anglemax="10" particlespersecond="50" velocitymin="50" velocitymax="200" scalemin="0.1" scalemax="0.2" />
