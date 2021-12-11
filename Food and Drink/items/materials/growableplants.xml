@@ -10,7 +10,7 @@
       <Price locationtype="city" multiplier="1.2" minavailable="1" />
       <Price locationtype="research" multiplier="0.9" minavailable="1" />
       <Price locationtype="military" multiplier="1.2" sold="false" />
-      <Price locationtype="mine" multiplier="0.75" sold="false" />
+      <Price locationtype="mine" multiplier="1.5" sold="false" />
     </Price>
     <Deconstruct time="30">
       <Item identifier="carbon" copycondition="true" mincondition="0.1" />

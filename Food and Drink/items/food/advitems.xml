@@ -1,19 +1,18 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Items>
-  <Item name="" identifier="fad_compatpill" category="Misc" maxstacksize="1" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.5" impactsoundtag="impact_metal_light">
-		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="0">
-      <RequiredSkill identifier="cooking" level="1" />
+  <Item name="" identifier="fad_compatpill" category="Misc" maxstacksize="1" cargocontaineridentifier="chemicalcrate" tags="smallitem,chem,medical,syringe" useinhealthinterface="true" scale="0.15" impactsoundtag="impact_metal_light">
+		<Fabricate suitablefabricators="cookingstation,medicalfabricator" requiredtime="10">
 		</Fabricate>
 		<Deconstruct time="0">
 		</Deconstruct>
-		<InventoryIcon texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="832,0,64,64" origin="0.5,0.5" />
-		<Sprite texture="Mods/Food And Drink/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.6" origin="0.5,0.5" />
+		<InventoryIcon texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="832,0,64,64" origin="0.5,0.5" />
+		<Sprite texture="Mods/Food and Drink/InventoryIconAtlas.png" sourcerect="832,0,64,64" depth="0.6" origin="0.5,0.5" />
 		<Body width="40" height="40" density="60" />
-    <MeleeWeapon canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="0" reload="1.0" msg="ItemMsgPickUpSelect">
+    <Holdable canBeCombined="true" removeOnCombined="true" slots="Any,RightHand,LeftHand" aimpos="5,0" handle1="-5,0" holdangle="0" reload="1.0" msg="ItemMsgPickUpSelect">
       <StatusEffect type="OnUse" target="This" Condition="-100.0" disabledeltatime="true" />
       <StatusEffect type="OnBroken" target="This">
 				<Remove />
 			</StatusEffect>
-		</MeleeWeapon>
+		</Holdable>
 	</Item>
 </Items>

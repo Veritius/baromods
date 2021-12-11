@@ -33,6 +33,7 @@
   			<StatusEffect tags="poison" type="OnUse" target="Character">
   				<Sound file="Content/Items/Medical/Syringe.ogg" range="500" />
   				<ReduceAffliction identifier="fad_hunger" amount="10" />
+  				<ReduceAffliction identifier="fad_thirst" amount="15" />
   			</StatusEffect>
   			<StatusEffect type="OnBroken" target="This">
   				<Remove />
